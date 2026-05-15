@@ -1,0 +1,316 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "integration": "Entegrasyon",
+    "solutions": "Çözümler",
+    "about": "Hakkımızda",
+    "demo": "Demo Talep Et",
+    "docs": "Dokümantasyon",
+    "pricing": "Fiyatlandırma",
+    "faq": "SSS"
+  },
+  "hero": {
+    "badge": "AI Destekli Depo Yönetimi",
+    "title_1": "Deponuzu",
+    "title_2": "Akıllı",
+    "title_3": "Yönetin",
+    "subtitle": "Logo ERP entegrasyonlu, yapay zeka destekli, mobil ve web tabanlı kurumsal depo yönetim sistemi. 18+ operasyon tipiyle deponuzu tam kontrol altına alın.",
+    "cta_demo": "Demo Talep Et",
+    "cta_docs": "Dokümantasyonu İncele",
+    "stat_customers": "Aktif Müşteri",
+    "stat_uptime": "Uptime",
+    "stat_operations": "Operasyon Tipi",
+    "stat_agents": "AI Uzmanı"
+  },
+  "stats": {
+    "title": "Rakamlarla iyibir WMS",
+    "customers": "Aktif Müşteri",
+    "daily_ops": "Günlük İşlem",
+    "op_types": "Operasyon Tipi",
+    "ai_agents": "AI Uzman Agent",
+    "uptime": "Yıllık Uptime",
+    "satisfaction": "Müşteri Memnuniyeti"
+  },
+  "features": {
+    "badge": "Kapsamlı Operasyonlar",
+    "title": "Deponun Her Köşesini Yönetin",
+    "subtitle": "7 ana operasyon kategorisi ve 18+ işlem tipiyle depo süreçlerinizi uçtan uca dijitalleştirin.",
+    "categories": {
+      "mal_kabul": {
+        "name": "Mal Kabul",
+        "desc": "Gelen malları hızlı ve hatasız kabul edin. Sipariş bazlı veya serbest kabul seçenekleriyle tam kontrol.",
+        "ops": ["Serbest Mal Kabul", "Siparişe Göre Mal Kabul", "İade Kabul", "İrsaliye İadesi"]
+      },
+      "malzeme": {
+        "name": "Malzeme",
+        "desc": "Depo içi malzeme hareketlerini lot ve seri takibiyle yönetin. Anlık stok görünürlüğü sağlayın.",
+        "ops": ["Malzeme Giriş", "Malzeme Çıkış", "Transfer", "Lot Oluştur", "Lot Böl"]
+      },
+      "sevkiyat": {
+        "name": "Sevkiyat",
+        "desc": "Siparişleri etkin şekilde toplayın, paketleyin ve sevk edin. Kargo entegrasyonuyla tam takip.",
+        "ops": ["Serbest Sevkiyat", "Ürün Toplama", "Sevkiyat Transfer", "İade Sevkiyat"]
+      },
+      "sayim": {
+        "name": "Sayım",
+        "desc": "Ambar, lokasyon ve ürün bazlı sayım yapın. Anlık sayım sonuçlarını ERP'ye aktarın.",
+        "ops": ["Ambar Sayımı", "Lokasyon Sayımı", "Ürün Sayımı", "Sayım Sıfırlama"]
+      },
+      "uretim": {
+        "name": "Üretim",
+        "desc": "Üretim emirlerini mobilden takip edin. Hızlı üretim seçeneğiyle sahada verimlilik artışı.",
+        "ops": ["Üretim Emri İşleme", "Hızlı Üretim", "Rework"]
+      },
+      "fason": {
+        "name": "Fason",
+        "desc": "Fason operasyonlarınızı baştan sona takip edin. Fason sevkiyat, kabul ve transfer işlemleri.",
+        "ops": ["Fason Sevkiyat", "Fason Kabul", "Fason Transfer", "Fason Üretim"]
+      },
+      "talep": {
+        "name": "Talep",
+        "desc": "İç talepleri yönetin, talep karşılama süreçlerini hızlandırın ve stok verimliliğini artırın.",
+        "ops": ["Talep Oluşturma", "Talep Karşılama", "Bekleyen Talepler"]
+      }
+    }
+  },
+  "ai": {
+    "badge": "Yapay Zeka",
+    "title": "7 Uzman AI Agent",
+    "subtitle": "MCP protokolüyle güçlendirilmiş, depo süreçlerine özel eğitilmiş yapay zeka asistanlarınız 7/24 hizmetinizde.",
+    "protocol": "Model Context Protocol (MCP) ile güvenli AI erişimi",
+    "agents": {
+      "inventory": { "name": "Stok Uzmanı", "desc": "Anlık stok seviyeleri, lot/seri sorgulama, depo bazlı envanter analizi" },
+      "sales": { "name": "Satış Uzmanı", "desc": "Müşteri siparişleri, sevkiyat takibi, irsaliye yönetimi" },
+      "purchase": { "name": "Satın Alma Uzmanı", "desc": "Tedarikçi siparişleri, mal kabul takibi, bekleyen sipariş analizi" },
+      "production": { "name": "Üretim Uzmanı", "desc": "Üretim emirleri, kapasite analizi, bekleyen talepler" },
+      "demand": { "name": "Talep Uzmanı", "desc": "Talep yönetimi, planlama desteği, malzeme ihtiyaç analizi" },
+      "counting": { "name": "Sayım Uzmanı", "desc": "Sayım planlama, stok doğrulama, sayım fark analizi" },
+      "outsource": { "name": "Fason Uzmanı", "desc": "Fason tedarikçi yönetimi, fason sipariş takibi, mamul analizi" }
+    },
+    "chat_example": {
+      "user": "Ankara deposundaki A101 ürününün mevcut stok miktarı nedir?",
+      "agent": "A101 - Paslanmaz Boru Ø50mm ürününün Ankara deposundaki güncel stoku: **1,240 adet** (3 lot). Son hareket: Bugün 14:23 - Mal Kabul +200 adet."
+    }
+  },
+  "logo": {
+    "badge": "ERP Entegrasyonu",
+    "title": "Logo Tiger ile Sorunsuz Entegrasyon",
+    "subtitle": "Mevcut Logo Tiger ERP sisteminizle tam uyumlu. Verilerinizi ikiye katlamadan, mevcut altyapınızı koruyarak güçlendirin.",
+    "features": [
+      "Gerçek zamanlı stok senkronizasyonu",
+      "Satış ve satın alma siparişleri",
+      "Müşteri ve tedarikçi master verisi",
+      "Sevkiyat irsaliyeleri",
+      "Üretim emirleri entegrasyonu",
+      "Lot ve seri numarası takibi"
+    ],
+    "note": "Logo Tiger GoDb üzerinden salt-okunur güvenli bağlantı"
+  },
+  "mockups": {
+    "badge": "Çift Platform",
+    "title": "Web ve Mobil'de Tam Güç",
+    "subtitle": "Ofis yöneticileriniz için Blazor web uygulaması, saha ekibiniz için .NET MAUI mobil uygulama.",
+    "web_title": "Blazor Web Uygulaması",
+    "web_desc": "Planlama, raporlama ve yönetim için gelişmiş admin paneli",
+    "mobile_title": "MAUI Mobil Uygulama",
+    "mobile_desc": "Android/iOS barkod tarama, offline destek, hızlı operasyon",
+    "features": ["Barkod & QR Tarama", "Offline Çalışma", "Anlık Bildirimler", "Koyu/Açık Tema"]
+  },
+  "tech": {
+    "badge": "Teknoloji",
+    "title": "Kurumsal Güvenilirlik",
+    "subtitle": "Modern teknoloji stack'i, kanıtlanmış kurumsal performans."
+  },
+  "testimonials": {
+    "badge": "Müşteri Görüşleri",
+    "title": "Müşterilerimiz Ne Diyor?",
+    "subtitle": "Türkiye'nin önde gelen üretim ve lojistik firmalarının tercihi.",
+    "items": [
+      {
+        "company": "Ankara Tekstil A.Ş.",
+        "sector": "Tekstil Sektörü",
+        "text": "iyibir WMS ile depo operasyonlarımızda %40 verimlilik artışı sağladık. Logo ERP entegrasyonu sayesinde veri girişini tamamen ortadan kaldırdık. Saha ekibimiz artık barkod tarayıcıyla tüm işlemleri anlık yapabiliyor.",
+        "author": "Mehmet Yılmaz",
+        "role": "Lojistik Müdürü"
+      },
+      {
+        "company": "İzmir Lojistik Ltd.",
+        "sector": "3PL Lojistik",
+        "text": "Fason operasyonlarımızın takibinde çok ciddi sorunlar yaşıyorduk. iyibir WMS'in fason modülü bu sorunu tamamen çözdü. AI agent sayesinde 'bu malın son hareketi neydi?' sorusunu saniyeler içinde yanıtlayabiliyoruz.",
+        "author": "Ayşe Kaya",
+        "role": "Operasyon Direktörü"
+      },
+      {
+        "company": "Bursa Otomotiv San.",
+        "sector": "Otomotiv Yan Sanayi",
+        "text": "Lot ve seri takibi bizim için kritik. iyibir WMS ile her parçanın geçmişini saniyeler içinde görebiliyoruz. Sayım süremiz 3 günden 4 saate düştü. Gerçek anlamda kurumsal bir çözüm.",
+        "author": "Hasan Demir",
+        "role": "Fabrika Müdürü"
+      }
+    ]
+  },
+  "demo": {
+    "badge": "Ücretsiz Demo",
+    "title": "Deponuzu Dönüştürmeye\nHazır mısınız?",
+    "subtitle": "30 dakikalık demo görüşmesinde sistemi kendi verilerinizle inceleyin.",
+    "form": {
+      "name": "Ad Soyad",
+      "company": "Şirket Adı",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "message": "Mesajınız (opsiyonel)",
+      "submit": "Demo Talep Et",
+      "success": "Talebiniz alındı! En kısa sürede size ulaşacağız.",
+      "name_placeholder": "Adınız ve Soyadınız",
+      "company_placeholder": "Şirketinizin Adı",
+      "email_placeholder": "ornek@sirket.com",
+      "phone_placeholder": "+90 500 000 00 00",
+      "message_placeholder": "Depo sayısı, kullanıcı sayısı veya özel gereksinimleriniz..."
+    }
+  },
+  "contact": {
+    "badge": "İletişim",
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Sorularınız için teknik ekibimiz her zaman hazır.",
+    "address": "Ankara, Türkiye",
+    "email": "info@iyibiryazilim.com.tr",
+    "phone": "+90 312 000 00 00",
+    "website": "www.iyibiryazilim.com.tr"
+  },
+  "footer": {
+    "description": "Logo ERP entegrasyonlu, AI destekli kurumsal depo yönetim sistemi. Türkiye'nin üretim ve lojistik sektörlerine özel tasarlanmış.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "support": "Destek",
+    "legal": "Yasal",
+    "links": {
+      "features": "Özellikler",
+      "integration": "Entegrasyon",
+      "mobile": "Mobil Uygulama",
+      "pricing": "Fiyatlandırma",
+      "about": "Hakkımızda",
+      "blog": "Blog",
+      "careers": "Kariyer",
+      "main_site": "Ana Site",
+      "docs": "Dokümantasyon",
+      "demo": "Demo Talebi",
+      "contact": "İletişim",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "kvkk": "KVKK Aydınlatma Metni"
+    },
+    "copyright": "© 2025 iyibir Yazılım. Tüm hakları saklıdır.",
+    "built_with": "iyibir Yazılım tarafından Claude Code desteği ile geliştirilmiştir.",
+    "kvkk_notice": "Bu site çerez kullanmaktadır. Kişisel verileriniz KVKK kapsamında korunmaktadır."
+  },
+  "pricing": {
+    "badge": "Fiyatlandırma",
+    "title": "İhtiyacınıza Uygun Plan",
+    "subtitle": "Her ölçekteki işletme için esnek fiyatlandırma. Demo ile kendi verilerinizle deneyin.",
+    "monthly": "/ ay",
+    "custom": "Özel Fiyat",
+    "contact_sales": "Satış Ekibiyle İletişim",
+    "per_user": "kullanıcıya kadar",
+    "most_popular": "En Popüler",
+    "note": "Tüm fiyatlara KDV dahil değildir. Yıllık ödeme seçeneğinde %20 indirim uygulanır.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "4.900 ₺",
+        "desc": "Küçük depo operasyonları için temel WMS çözümü",
+        "users": "5",
+        "features": [
+          "5 kullanıcı lisansı",
+          "3 operasyon kategorisi (seçilecek)",
+          "Logo Tiger entegrasyonu",
+          "Blazor web uygulaması",
+          "Temel raporlama",
+          "Email destek"
+        ],
+        "cta": "Demo Talep Et",
+        "highlighted": false
+      },
+      {
+        "name": "Professional",
+        "price": "9.900 ₺",
+        "desc": "Büyüyen işletmeler için kapsamlı WMS + AI çözümü",
+        "users": "20",
+        "features": [
+          "20 kullanıcı lisansı",
+          "Tüm 7 operasyon kategorisi",
+          "7 AI Uzman Agent dahil",
+          "MAUI mobil uygulama",
+          "Logo Tiger entegrasyonu",
+          "Gelişmiş raporlama & analitik",
+          "Öncelikli destek"
+        ],
+        "cta": "Demo Talep Et",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": null,
+        "desc": "Büyük operasyonlar için sınırsız ve esnek çözüm",
+        "users": "∞",
+        "features": [
+          "Sınırsız kullanıcı",
+          "Tüm özellikler dahil",
+          "On-premise kurulum seçeneği",
+          "Özel ERP entegrasyonları",
+          "SLA garantisi",
+          "7/24 öncelikli destek",
+          "Dedicated hesap yöneticisi"
+        ],
+        "cta": "İletişime Geçin",
+        "highlighted": false
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Sık Sorulan Sorular",
+    "title": "Aklınızdaki Sorular",
+    "subtitle": "iyibir WMS hakkında en çok sorulan soruların yanıtları.",
+    "items": [
+      {
+        "q": "Logo Tiger entegrasyonu nasıl çalışır?",
+        "a": "GoDb salt-okunur bağlantısı üzerinden Logo Tiger ERP sisteminize güvenli erişim sağlanır. Mevcut ERP yapınıza dokunmadan, veri ikizlemesi yapmadan WMS özelliklerini eklersiniz. Stok, sipariş ve cari veriler anlık senkronize edilir."
+      },
+      {
+        "q": "Kurulum ve geçiş süreci ne kadar sürer?",
+        "a": "Standart kurulum genellikle 2-4 hafta içinde tamamlanır. Bu süreç Logo Tiger bağlantısı kurulumu, sistem konfigürasyonu, veri aktarımı ve personel eğitimini kapsar. Daha büyük operasyonlar için 6-8 haftalık proje planı oluşturulur."
+      },
+      {
+        "q": "Mobil uygulama hangi cihazları destekler?",
+        "a": ".NET MAUI tabanlı mobil uygulamamız Android (5.0+) ve iOS (14+) cihazları destekler. Zebra, Honeywell gibi endüstriyel barkod okuyucular ve el terminalleri ile de tam uyumludur."
+      },
+      {
+        "q": "AI Agent'lar nasıl çalışır? Güvenli mi?",
+        "a": "7 uzman AI agent, WMS verilerinize MCP protokolü üzerinden güvenli, salt-okunur erişimle doğal dil sorularınızı yanıtlar. Verileriniz hiçbir zaman AI modeline gönderilmez; sadece sorgu sonuçları işlenir. Tam audit log tutulur."
+      },
+      {
+        "q": "Veri güvenliği ve KVKK uyumu nasıl sağlanıyor?",
+        "a": "Tüm veriler Türkiye'deki sunucularda SQL Server üzerinde saklanır. JWT tabanlı kimlik doğrulama, rol bazlı erişim kontrolü (RBAC), TLS şifreleme ve kapsamlı audit log ile KVKK gereksinimlerine tam uyum sağlanır."
+      },
+      {
+        "q": "İnternet bağlantısı kesilirse ne olur?",
+        "a": "MAUI mobil uygulama offline çalışma modunu destekler. Bağlantı kesildiğinde tüm operasyonlar yerel veritabanında kaydedilir. Bağlantı yeniden sağlandığında otomatik çift yönlü senkronizasyon gerçekleşir."
+      },
+      {
+        "q": "Mevcut barkod ekipmanlarımı kullanabilir miyim?",
+        "a": "Evet, piyasadaki neredeyse tüm barkod tarayıcı ve el terminalleri desteklenir. 1D/2D barkod, QR kod desteği mevcuttur. Ekipman uyumluluğu kurulum öncesi ücretsiz test edilebilir."
+      },
+      {
+        "q": "Özel geliştirme ve entegrasyon talep edebilir miyim?",
+        "a": "Evet, teknik ekibimiz özel operasyon tipleri, üçüncü taraf entegrasyonlar ve sektöre özel modüller geliştirebilir. Enterprise planı kapsamında özel geliştirme hizmetleri sunulmaktadır."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "last_updated": "Son güncelleme: Ocak 2025"
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "last_updated": "Son güncelleme: Ocak 2025"
+  }
+}

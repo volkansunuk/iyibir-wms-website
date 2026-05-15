@@ -1,0 +1,315 @@
+{
+  "nav": {
+    "features": "Features",
+    "integration": "Integration",
+    "solutions": "Solutions",
+    "about": "About",
+    "demo": "Request Demo",
+    "docs": "Documentation",
+    "pricing": "Pricing",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "AI-Powered Warehouse Management",
+    "title_1": "Manage Your",
+    "title_2": "Warehouse",
+    "title_3": "Intelligently",
+    "subtitle": "Enterprise warehouse management system with Logo ERP integration, AI support, and mobile & web clients. Take full control with 18+ operation types.",
+    "cta_demo": "Request Demo",
+    "cta_docs": "View Documentation",
+    "stat_customers": "Active Customers",
+    "stat_uptime": "Uptime",
+    "stat_operations": "Operation Types",
+    "stat_agents": "AI Specialists"
+  },
+  "stats": {
+    "title": "iyibir WMS By The Numbers",
+    "customers": "Active Customers",
+    "daily_ops": "Daily Transactions",
+    "op_types": "Operation Types",
+    "ai_agents": "AI Expert Agents",
+    "uptime": "Annual Uptime",
+    "satisfaction": "Customer Satisfaction"
+  },
+  "features": {
+    "badge": "Comprehensive Operations",
+    "title": "Manage Every Corner of Your Warehouse",
+    "subtitle": "Digitize your warehouse processes end-to-end with 7 main operation categories and 18+ transaction types.",
+    "categories": {
+      "mal_kabul": {
+        "name": "Goods Receipt",
+        "desc": "Accept incoming goods quickly and accurately. Full control with order-based or free receipt options.",
+        "ops": ["Free Goods Receipt", "Order-Based Receipt", "Return Receipt", "Waybill Return"]
+      },
+      "malzeme": {
+        "name": "Materials",
+        "desc": "Manage intra-warehouse material movements with lot and serial tracking. Provide real-time stock visibility.",
+        "ops": ["Material Inbound", "Material Outbound", "Transfer", "Create Lot", "Split Lot"]
+      },
+      "sevkiyat": {
+        "name": "Shipment",
+        "desc": "Efficiently pick, pack, and ship orders. Complete tracking with cargo integration.",
+        "ops": ["Free Shipment", "Order Picking", "Shipment Transfer", "Return Shipment"]
+      },
+      "sayim": {
+        "name": "Counting",
+        "desc": "Count by warehouse, location, and product. Transfer real-time count results to ERP.",
+        "ops": ["Warehouse Count", "Location Count", "Product Count", "Reset Count"]
+      },
+      "uretim": {
+        "name": "Production",
+        "desc": "Track production orders from mobile. Increase field efficiency with quick production option.",
+        "ops": ["Production Order Processing", "Quick Production", "Rework"]
+      },
+      "fason": {
+        "name": "Outsourcing",
+        "desc": "Track outsource operations from start to finish. Outsource shipment, receipt, and transfer.",
+        "ops": ["Outsource Shipment", "Outsource Receipt", "Outsource Transfer", "Outsource Production"]
+      },
+      "talep": {
+        "name": "Demand",
+        "desc": "Manage internal demands, accelerate fulfillment processes, and increase stock efficiency.",
+        "ops": ["Create Demand", "Fulfill Demand", "Pending Demands"]
+      }
+    }
+  },
+  "ai": {
+    "badge": "Artificial Intelligence",
+    "title": "7 Expert AI Agents",
+    "subtitle": "Powered by MCP protocol, trained specifically for warehouse processes — your AI assistants at your service 24/7.",
+    "protocol": "Secure AI access via Model Context Protocol (MCP)",
+    "agents": {
+      "inventory": { "name": "Inventory Specialist", "desc": "Real-time stock levels, lot/serial queries, warehouse-based inventory analysis" },
+      "sales": { "name": "Sales Specialist", "desc": "Customer orders, shipment tracking, waybill management" },
+      "purchase": { "name": "Purchase Specialist", "desc": "Supplier orders, goods receipt tracking, pending order analysis" },
+      "production": { "name": "Production Specialist", "desc": "Production orders, capacity analysis, pending demands" },
+      "demand": { "name": "Demand Specialist", "desc": "Demand management, planning support, material requirement analysis" },
+      "counting": { "name": "Counting Specialist", "desc": "Count planning, stock verification, count difference analysis" },
+      "outsource": { "name": "Outsource Specialist", "desc": "Subcontractor management, outsource order tracking, product analysis" }
+    },
+    "chat_example": {
+      "user": "What is the current stock of product A101 in Ankara warehouse?",
+      "agent": "A101 - Stainless Pipe Ø50mm current stock in Ankara warehouse: **1,240 units** (3 lots). Last movement: Today 14:23 - Goods Receipt +200 units."
+    }
+  },
+  "logo": {
+    "badge": "ERP Integration",
+    "title": "Seamless Integration with Logo Tiger",
+    "subtitle": "Fully compatible with your existing Logo Tiger ERP system. Enhance your infrastructure without doubling your data or disrupting existing workflows.",
+    "features": [
+      "Real-time stock synchronization",
+      "Sales and purchase orders",
+      "Customer and supplier master data",
+      "Shipment waybills",
+      "Production order integration",
+      "Lot and serial number tracking"
+    ],
+    "note": "Secure read-only connection via Logo Tiger GoDb"
+  },
+  "mockups": {
+    "badge": "Dual Platform",
+    "title": "Full Power on Web and Mobile",
+    "subtitle": "Blazor web application for office managers, .NET MAUI mobile app for field teams.",
+    "web_title": "Blazor Web Application",
+    "web_desc": "Advanced admin panel for planning, reporting, and management",
+    "mobile_title": "MAUI Mobile App",
+    "mobile_desc": "Android/iOS barcode scanning, offline support, fast operations",
+    "features": ["Barcode & QR Scanning", "Offline Mode", "Real-time Notifications", "Dark/Light Theme"]
+  },
+  "tech": {
+    "badge": "Technology",
+    "title": "Enterprise Reliability",
+    "subtitle": "Modern technology stack, proven enterprise performance."
+  },
+  "testimonials": {
+    "badge": "Customer Reviews",
+    "title": "What Our Customers Say",
+    "subtitle": "Trusted by leading manufacturing and logistics companies in Turkey.",
+    "items": [
+      {
+        "company": "Ankara Tekstil A.Ş.",
+        "sector": "Textile Industry",
+        "text": "With iyibir WMS, we achieved a 40% efficiency increase in warehouse operations. Logo ERP integration completely eliminated manual data entry. Our field team can now perform all operations instantly with barcode scanners.",
+        "author": "Mehmet Yılmaz",
+        "role": "Logistics Manager"
+      },
+      {
+        "company": "İzmir Lojistik Ltd.",
+        "sector": "3PL Logistics",
+        "text": "We had serious problems tracking outsource operations. iyibir WMS's outsource module completely solved this. Thanks to AI agents, we can answer 'what was the last movement of this material?' in seconds.",
+        "author": "Ayşe Kaya",
+        "role": "Operations Director"
+      },
+      {
+        "company": "Bursa Otomotiv San.",
+        "sector": "Automotive Supply",
+        "text": "Lot and serial tracking is critical for us. With iyibir WMS, we can see the history of every part in seconds. Our counting time dropped from 3 days to 4 hours. A truly enterprise solution.",
+        "author": "Hasan Demir",
+        "role": "Plant Manager"
+      }
+    ]
+  },
+  "demo": {
+    "badge": "Free Demo",
+    "title": "Ready to Transform\nYour Warehouse?",
+    "subtitle": "Explore the system with your own data in a 30-minute demo meeting.",
+    "form": {
+      "name": "Full Name",
+      "company": "Company Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message (optional)",
+      "submit": "Request Demo",
+      "success": "Your request has been received! We will contact you shortly.",
+      "name_placeholder": "Your Full Name",
+      "company_placeholder": "Your Company Name",
+      "email_placeholder": "example@company.com",
+      "phone_placeholder": "+90 500 000 00 00",
+      "message_placeholder": "Number of warehouses, users, or special requirements..."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Get In Touch",
+    "subtitle": "Our technical team is always ready for your questions.",
+    "address": "Ankara, Turkey",
+    "email": "info@iyibiryazilim.com.tr",
+    "phone": "+90 312 000 00 00",
+    "website": "www.iyibiryazilim.com.tr"
+  },
+  "footer": {
+    "description": "Enterprise warehouse management system with Logo ERP integration and AI support. Designed specifically for Turkey's manufacturing and logistics sectors.",
+    "product": "Product",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "integration": "Integration",
+      "mobile": "Mobile App",
+      "pricing": "Pricing",
+      "about": "About Us",
+      "blog": "Blog",
+      "careers": "Careers",
+      "main_site": "Main Site",
+      "docs": "Documentation",
+      "demo": "Request Demo",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "kvkk": "KVKK Disclosure Text"
+    },
+    "copyright": "© 2025 iyibir Yazılım. All rights reserved.",
+    "built_with": "Developed by iyibir Yazılım with Claude Code support.",
+    "kvkk_notice": "This site uses cookies. Your personal data is protected under KVKK regulations."
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "The Right Plan for Your Needs",
+    "subtitle": "Flexible pricing for businesses of all sizes. Scale up or down as your needs change.",
+    "monthly": "/ mo",
+    "custom": "Custom Price",
+    "most_popular": "Most Popular",
+    "per_user": "per user",
+    "note": "All prices exclude VAT. Annual billing available with 15% discount. Prices are in Turkish Lira.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "₺4,900",
+        "desc": "Ideal for small teams and single-warehouse operations.",
+        "users": "Up to 5 users",
+        "features": [
+          "All 7 operation categories",
+          "Logo Tiger integration",
+          "Mobile app (Android/iOS)",
+          "Barcode & QR scanning",
+          "Basic reporting",
+          "Email support"
+        ],
+        "cta": "Request Demo",
+        "highlighted": false
+      },
+      {
+        "name": "Professional",
+        "price": "₺9,900",
+        "desc": "Comprehensive solution for growing businesses and multi-warehouse structures.",
+        "users": "Up to 20 users",
+        "features": [
+          "Everything in Starter",
+          "Multi-warehouse management",
+          "AI agent assistants (7 specialists)",
+          "Advanced analytics & dashboards",
+          "Lot/serial number tracking",
+          "Priority support",
+          "Custom reports"
+        ],
+        "cta": "Request Demo",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": null,
+        "desc": "Custom solution for large enterprises with special needs.",
+        "users": "Unlimited users",
+        "features": [
+          "Everything in Professional",
+          "Custom integrations",
+          "Dedicated account manager",
+          "On-premise deployment",
+          "SLA guarantee",
+          "Training & onboarding",
+          "Custom AI development"
+        ],
+        "cta": "Contact Us",
+        "highlighted": false
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common questions about iyibir WMS.",
+    "items": [
+      {
+        "q": "How does Logo Tiger integration work?",
+        "a": "iyibir WMS connects to your Logo Tiger database via a read-only GoDb connection. This means all ERP data (customers, suppliers, products, stock, orders) flows directly into WMS in real time. The integration is one-directional: WMS reads data from Logo and writes completed warehouse transactions (e.g., waybills) back to Logo Tiger. Your existing ERP infrastructure is not disrupted."
+      },
+      {
+        "q": "How long does implementation take?",
+        "a": "For standard setups, initial go-live is typically 2–4 weeks: 1 week for technical installation and Logo integration setup, 1–2 weeks for data validation and configuration, and 1 week for user training. For complex multi-warehouse structures or custom integrations, this may extend to 6–8 weeks. We provide full support throughout the process."
+      },
+      {
+        "q": "Which mobile devices does the mobile app support?",
+        "a": "The iyibir WMS mobile app is built with .NET MAUI, supporting Android 8.0+ and iOS 14+ devices. Industrial barcode scanners (Zebra, Honeywell, Datalogic) running Android are also fully supported. The app works with both the device camera and dedicated barcode scanner hardware."
+      },
+      {
+        "q": "How secure are AI agents? Do they access sensitive data?",
+        "a": "AI agents operate via the Model Context Protocol (MCP) and only access data you explicitly authorize. Each agent is limited to its own domain (e.g., the Inventory Specialist can only query stock data). Agents cannot modify data — they are read-only. All communication is encrypted and your data is never shared with third parties or used to train AI models."
+      },
+      {
+        "q": "How is data security and KVKK compliance handled?",
+        "a": "iyibir WMS is designed with KVKK (Turkish Personal Data Protection Law) compliance in mind. Data is stored in your own SQL Server database — you have full control. Role-based access control (RBAC) allows you to define exactly which users can access which data. All transactions are logged with full audit trail. You can choose on-premise or cloud hosting."
+      },
+      {
+        "q": "Does the system work offline?",
+        "a": "Yes. The mobile app supports offline mode for core operations such as barcode scanning, goods receipt, and counting. Transactions performed offline are automatically synchronized with the server when connectivity is restored. This is critical for warehouse environments with poor Wi-Fi coverage."
+      },
+      {
+        "q": "What barcode and RFID equipment is supported?",
+        "a": "iyibir WMS supports all standard 1D and 2D barcodes (Code 128, EAN-13, QR Code, Data Matrix, etc.) via both device camera and dedicated scanners. It integrates with industrial scanners from brands such as Zebra, Honeywell, Datalogic, and Newland. RFID support can be added with additional hardware integration."
+      },
+      {
+        "q": "Can custom development be done?",
+        "a": "Yes. iyibir WMS is a modular platform and can be extended with custom modules, special reports, or unique integration requirements. Our team can develop new operation types, custom AI agents, or ERP integrations tailored to your business. Contact us to get a quote for your requirements."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: January 2025"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "last_updated": "Last updated: January 2025"
+  }
+}
