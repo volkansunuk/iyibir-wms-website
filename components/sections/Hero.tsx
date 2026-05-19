@@ -251,7 +251,7 @@ export default function Hero() {
                 {t("cta_demo")}
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
-              <a href="/docs"
+              <a href="https://iyibir-wms-docs.vercel.app" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 px-7 py-3.5 text-base font-semibold rounded-full transition-all duration-200"
                 style={{ color: "var(--text-secondary)", border: "1px solid var(--bg-border)" }}
                 onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; e.currentTarget.style.borderColor = "#512BD4"; }}
