@@ -25,39 +25,133 @@ export default async function TermsPage({
             {isTr ? "Kullanım Koşulları" : "Terms of Service"}
           </h1>
           <p className="text-sm text-[#50506A] mb-10">
-            {isTr ? "Son güncelleme: Ocak 2025" : "Last updated: January 2025"}
+            {isTr ? "Son güncelleme: Mayıs 2025" : "Last updated: May 2025"}
           </p>
 
           <div className="space-y-8 text-[#9090B0] leading-relaxed">
             {isTr ? (
               <>
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">1. Kabul</h2>
-                  <p>Bu web sitesini ziyaret ederek aşağıdaki kullanım koşullarını kabul etmiş sayılırsınız.</p>
-                </section>
-                <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">2. Hizmet Kapsamı</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">1. Kabul ve Kapsam</h2>
                   <p>
-                    iyibir WMS Platform, kurumsal depo yönetim yazılımı hizmeti sunan bir B2B ürünüdür.
-                    Hizmet detayları ayrıca sözleşme kapsamında belirlenir.
+                    Bu web sitesini ve iyibir WMS hizmetlerini kullananlar, aşağıdaki kullanım koşullarını kabul
+                    etmiş sayılır. iyibir Yazılım, bu koşulları önceden bildirmeksizin güncelleme hakkını saklı tutar.
+                    Güncel koşullar her zaman bu sayfada yayımlanır.
                   </p>
                 </section>
+
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">3. Fikri Mülkiyet</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">2. Hizmet Tanımı</h2>
                   <p>
-                    Bu web sitesindeki tüm içerik, tasarım ve yazılım iyibir Yazılım&apos;ın mülkiyetindedir.
-                    İzinsiz kopyalanması ve dağıtılması yasaktır.
+                    iyibir WMS Platform, Logo Tiger ERP ile entegre çalışan, depo süreçlerini dijitalleştiren kurumsal
+                    bir B2B yazılım hizmetidir. Hizmet kapsamı; web ve mobil uygulama erişimi, AI asistan özellikleri,
+                    entegrasyon servisleri ve teknik desteği içerir.
+                  </p>
+                  <p className="mt-2">
+                    Hizmet detayları, kullanıcı sayısı, modüller ve özelleştirmeler; taraflar arasında imzalanan ayrı
+                    bir hizmet sözleşmesiyle belirlenir.
                   </p>
                 </section>
+
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">4. Sorumluluk Sınırlaması</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">3. Abonelik ve Ödeme</h2>
                   <p>
-                    iyibir Yazılım, web sitesi içeriğinin doğruluğu konusunda makul özen göstermektedir.
-                    Ancak herhangi bir hata veya eksiklik nedeniyle doğabilecek zararlardan sorumlu tutulamaz.
+                    iyibir WMS aylık veya yıllık abonelik modelleriyle sunulur. Fiyatlar web sitesinde belirtilen
+                    tarife üzerinden geçerlidir; yıllık ödeme için indirim uygulanabilir. Tüm fiyatlar KDV hariçtir.
+                  </p>
+                  <p className="mt-2">
+                    Abonelik süresi içinde iptal talebinde bulunan müşterilerden kalan süreye ait ücret tahsil
+                    edilmez; önceki dönem ücretleri iade edilmez. Ödeme koşulları hizmet sözleşmesinde ayrıca
+                    düzenlenir.
                   </p>
                 </section>
+
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">5. İletişim</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">4. Kullanıcı Yükümlülükleri</h2>
+                  <p className="mb-2">Kullanıcılar aşağıdaki yükümlülüklere uymayı kabul eder:</p>
+                  <ul className="list-disc list-inside space-y-1 ml-2">
+                    <li>Sisteme yetkisiz erişim girişiminde bulunmamak</li>
+                    <li>Hesap bilgilerini üçüncü şahıslarla paylaşmamak</li>
+                    <li>Sistemi yalnızca meşru ticari amaçlar için kullanmak</li>
+                    <li>Yazılımı tersine mühendislik, kopyalama veya değiştirme yoluna gitmemek</li>
+                    <li>Sisteme zarar verebilecek zararlı yazılım veya içerik yüklememek</li>
+                    <li>Geçerli tüm yasalara uymak</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">5. Fikri Mülkiyet</h2>
+                  <p>
+                    Web sitesindeki ve iyibir WMS platformundaki tüm içerik, tasarım, kaynak kodu, marka, logo ve
+                    diğer fikri mülkiyet unsurları iyibir Yazılım&apos;a aittir ve fikri mülkiyet mevzuatı kapsamında
+                    koruma altındadır.
+                  </p>
+                  <p className="mt-2">
+                    Kullanıcılara; hizmet kapsamında sistemi kullanmak için sınırlı, devredilemez, münhasır olmayan
+                    bir lisans tanınır. Bu lisans, herhangi bir fikri mülkiyet hakkının devri anlamına gelmez.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">6. Gizlilik ve Veri Güvenliği</h2>
+                  <p>
+                    iyibir WMS, müşteri verilerinin güvenliğini ön planda tutar. Veriler müşterinin kendi SQL Server
+                    veritabanında tutulur; iyibir Yazılım, destek dışı durumlarda müşteri verilerine erişmez.
+                    Kişisel verilerin işlenmesine ilişkin detaylar için{" "}
+                    <a href="/tr/privacy" className="text-[#A78BFA] hover:underline">
+                      Gizlilik Politikası
+                    </a>
+                    &apos;nı inceleyin.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">7. Hizmet Sürekliliği ve Kesintiler</h2>
+                  <p>
+                    iyibir Yazılım, hizmetin kesintisiz sunulması için makul teknik önlemleri alır. Ancak planlı
+                    bakım çalışmaları, altyapı kaynaklı aksaklıklar veya mücbir sebepler nedeniyle hizmet kesintileri
+                    yaşanabilir. Kritik güncellemeler öncesinde müşteriler bilgilendirilir.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">8. Sorumluluk Sınırlaması</h2>
+                  <p>
+                    iyibir Yazılım&apos;ın sorumluluğu, hizmet sözleşmesinde belirtilen tutar ile sınırlıdır.
+                    Dolaylı zararlar, veri kayıpları veya iş kesintilerinden kaynaklanan kayıplar için sorumluluk
+                    kabul edilmez. iyibir Yazılım, web sitesi içeriğinin eksiksizliği ve doğruluğu için makul özen
+                    gösterir; ancak içerikteki hatalardan doğabilecek zararlardan sorumlu tutulamaz.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">9. Hizmet Feshi</h2>
+                  <p>
+                    Müşteri, sözleşmede belirtilen süre öncesinde yazılı bildirimle aboneliğini sonlandırabilir.
+                    iyibir Yazılım; kullanım koşullarının ihlali, abonelik ücretinin ödenmemesi veya sisteme zarar
+                    verici davranışlar halinde hizmeti askıya alma veya sonlandırma hakkını saklı tutar.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">10. Koşulların Değiştirilmesi</h2>
+                  <p>
+                    iyibir Yazılım, bu kullanım koşullarını önceden bildirimde bulunarak güncelleme hakkını saklı
+                    tutar. Önemli değişiklikler en az 30 gün öncesinden müşterilere bildirilir. Değişiklikler
+                    yayımlandıktan sonra hizmeti kullanmaya devam etmek, güncel koşulların kabulü anlamına gelir.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">11. Uygulanacak Hukuk ve Yetki</h2>
+                  <p>
+                    Bu kullanım koşulları Türk hukukuna tabidir. Uyuşmazlıkların çözümünde Ankara mahkemeleri ve
+                    icra daireleri yetkilidir.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">12. İletişim</h2>
                   <p>
                     Sorularınız için:{" "}
                     <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
@@ -69,32 +163,126 @@ export default async function TermsPage({
             ) : (
               <>
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">1. Acceptance</h2>
-                  <p>By visiting this website, you are deemed to have accepted the following terms of use.</p>
-                </section>
-                <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">2. Service Scope</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">1. Acceptance and Scope</h2>
                   <p>
-                    iyibir WMS Platform is a B2B product offering enterprise warehouse management software.
-                    Service details are determined separately by contract.
+                    By using this website and iyibir WMS services, you are deemed to have accepted the following terms
+                    of service. iyibir Yazılım reserves the right to update these terms without prior notice. The
+                    current terms are always published on this page.
                   </p>
                 </section>
+
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">3. Intellectual Property</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">2. Service Definition</h2>
                   <p>
-                    All content, design, and software on this website is the property of iyibir Yazılım.
-                    Unauthorized copying and distribution is prohibited.
+                    iyibir WMS Platform is an enterprise B2B software service that integrates with Logo Tiger ERP and
+                    digitizes warehouse processes. The service scope includes web and mobile application access, AI
+                    assistant features, integration services, and technical support.
+                  </p>
+                  <p className="mt-2">
+                    Service details, number of users, modules, and customizations are determined by a separate service
+                    agreement signed between the parties.
                   </p>
                 </section>
+
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">4. Limitation of Liability</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">3. Subscription and Payment</h2>
                   <p>
-                    iyibir Yazılım exercises reasonable care regarding the accuracy of website content.
-                    However, it cannot be held responsible for damages arising from any errors or omissions.
+                    iyibir WMS is offered with monthly or annual subscription models. Prices are as per the rates
+                    listed on the website; discounts may apply for annual payment. All prices exclude VAT.
+                  </p>
+                  <p className="mt-2">
+                    Customers who request cancellation during the subscription period will not be charged for the
+                    remaining period; fees for previous periods are non-refundable. Payment terms are separately
+                    regulated in the service agreement.
                   </p>
                 </section>
+
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">5. Contact</h2>
+                  <h2 className="text-lg font-semibold text-white mb-3">4. User Obligations</h2>
+                  <p className="mb-2">Users agree to comply with the following obligations:</p>
+                  <ul className="list-disc list-inside space-y-1 ml-2">
+                    <li>Not attempting unauthorized access to the system</li>
+                    <li>Not sharing account credentials with third parties</li>
+                    <li>Using the system only for legitimate business purposes</li>
+                    <li>Not reverse engineering, copying, or modifying the software</li>
+                    <li>Not uploading malicious software or harmful content to the system</li>
+                    <li>Complying with all applicable laws and regulations</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">5. Intellectual Property</h2>
+                  <p>
+                    All content, design, source code, trademarks, logos, and other intellectual property elements on
+                    the website and iyibir WMS platform belong to iyibir Yazılım and are protected under intellectual
+                    property law.
+                  </p>
+                  <p className="mt-2">
+                    Users are granted a limited, non-transferable, non-exclusive license to use the system within the
+                    scope of the service. This license does not imply any transfer of intellectual property rights.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">6. Privacy and Data Security</h2>
+                  <p>
+                    iyibir WMS prioritizes the security of customer data. Data is kept in the customer&apos;s own SQL
+                    Server database; iyibir Yazılım does not access customer data except for support purposes. For
+                    details on the processing of personal data, please review our{" "}
+                    <a href="/en/privacy" className="text-[#A78BFA] hover:underline">
+                      Privacy Policy
+                    </a>
+                    .
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">7. Service Continuity and Interruptions</h2>
+                  <p>
+                    iyibir Yazılım takes reasonable technical measures to provide uninterrupted service. However,
+                    service interruptions may occur due to planned maintenance, infrastructure issues, or force majeure.
+                    Customers are notified in advance of critical updates.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">8. Limitation of Liability</h2>
+                  <p>
+                    iyibir Yazılım&apos;s liability is limited to the amount specified in the service agreement. No
+                    liability is accepted for indirect damages, data losses, or losses arising from business
+                    interruptions. iyibir Yazılım exercises reasonable care for the completeness and accuracy of
+                    website content but cannot be held responsible for damages arising from errors.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">9. Service Termination</h2>
+                  <p>
+                    The customer may terminate their subscription with written notice before the period specified in
+                    the contract. iyibir Yazılım reserves the right to suspend or terminate service in cases of
+                    violation of terms of use, non-payment of subscription fees, or harmful conduct toward the system.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">10. Changes to Terms</h2>
+                  <p>
+                    iyibir Yazılım reserves the right to update these terms of service with prior notice. Significant
+                    changes are communicated to customers at least 30 days in advance. Continued use of the service
+                    after changes are published constitutes acceptance of the updated terms.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">11. Governing Law and Jurisdiction</h2>
+                  <p>
+                    These terms of service are governed by Turkish law. Ankara courts and enforcement offices have
+                    jurisdiction for dispute resolution.
+                  </p>
+                </section>
+
+                <section>
+                  <h2 className="text-lg font-semibold text-white mb-3">12. Contact</h2>
                   <p>
                     For questions:{" "}
                     <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">

@@ -75,21 +75,20 @@
   },
   "ai": {
     "badge": "Artificial Intelligence",
-    "title": "7 Expert AI Agents",
-    "subtitle": "Powered by MCP protocol, trained specifically for warehouse processes — your AI assistants at your service 24/7.",
+    "title": "AI Support Across Every Operation",
+    "subtitle": "One AI assistant for all your warehouse processes. Powered by Logo Tiger data, trained specifically for warehouse operations.",
     "protocol": "Secure AI access via Model Context Protocol (MCP)",
-    "agents": {
-      "inventory": { "name": "Inventory Specialist", "desc": "Real-time stock levels, lot/serial queries, warehouse-based inventory analysis" },
-      "sales": { "name": "Sales Specialist", "desc": "Customer orders, shipment tracking, waybill management" },
-      "purchase": { "name": "Purchase Specialist", "desc": "Supplier orders, goods receipt tracking, pending order analysis" },
-      "production": { "name": "Production Specialist", "desc": "Production orders, capacity analysis, pending demands" },
-      "demand": { "name": "Demand Specialist", "desc": "Demand management, planning support, material requirement analysis" },
-      "counting": { "name": "Counting Specialist", "desc": "Count planning, stock verification, count difference analysis" },
-      "outsource": { "name": "Outsource Specialist", "desc": "Subcontractor management, outsource order tracking, product analysis" }
-    },
+    "capabilities": [
+      { "key": "document", "area": "Goods Receipt", "name": "Document Scanning", "desc": "Scan incoming supplier documents with AI, auto-match products, and accelerate the goods receipt process." },
+      { "key": "demand", "area": "Demand", "name": "AI Demand Mode", "desc": "Get smart suggestions while creating demands, predict quantities and products from historical movements." },
+      { "key": "query", "area": "Query", "name": "Instant Status Query", "desc": "Ask by typing: 'Where is A101?', 'What went out this week?', 'Any critical stock levels?'" },
+      { "key": "sales", "area": "Sales", "name": "Sales Assistant", "desc": "Order statuses, shipment tracking, customer-based analysis. Real-time warehouse visibility for your sales team." },
+      { "key": "analysis", "area": "Analysis", "name": "Stock Analysis", "desc": "Critical stock alerts, most active products, warehouse utilization and operational efficiency reports." },
+      { "key": "voice", "area": "Coming Soon", "name": "Voice Operations", "desc": "Process commands by voice: 'Put 5 units to shelf A3'. Keep hands free, let AI guide you." }
+    ],
     "chat_example": {
-      "user": "What is the current stock of product A101 in Ankara warehouse?",
-      "agent": "A101 - Stainless Pipe Ø50mm current stock in Ankara warehouse: **1,240 units** (3 lots). Last movement: Today 14:23 - Goods Receipt +200 units."
+      "user": "Which 3 products had the most movement this week?",
+      "agent": "Top 3 most active products this week:\n1. A101 Stainless Pipe — 840 movements\n2. B205 Flange Ø60 — 620 movements\n3. C118 O-Ring Set — 510 movements"
     }
   },
   "logo": {
@@ -105,6 +104,26 @@
       "Lot and serial number tracking"
     ],
     "note": "Secure read-only connection via Logo Tiger GoDb"
+  },
+  "marketplace": {
+    "badge": "E-Commerce",
+    "title": "Manage Marketplace Orders with WMS",
+    "subtitle": "Manage orders from Trendyol, Hepsiburada, and other marketplaces directly in WMS. Automatic order import, barcode-guided picking, and cargo integration.",
+    "coming_soon": "Coming Soon",
+    "features": [
+      { "name": "Automatic Order Import", "desc": "Marketplace orders are automatically transferred to WMS — no manual entry needed." },
+      { "name": "Barcode-Guided Picking", "desc": "Step-by-step guided order picking process on the mobile app." },
+      { "name": "Cargo Integration", "desc": "Cargo barcodes are automatically generated, shipping labels print ready." },
+      { "name": "Return Management", "desc": "Marketplace returns are automatically routed to WMS goods receipt." },
+      { "name": "Stock Synchronization", "desc": "Real-time WMS stock levels automatically reflect across all sales channels." },
+      { "name": "Multi-Platform", "desc": "Manage Trendyol, Hepsiburada, n11, Amazon TR from a single screen." }
+    ],
+    "stat_1": "500+",
+    "stat_1_label": "Orders / Day",
+    "stat_2": "99.5%",
+    "stat_2_label": "Picking Accuracy",
+    "stat_3": "60%",
+    "stat_3_label": "Faster Shipping"
   },
   "mockups": {
     "badge": "Dual Platform",

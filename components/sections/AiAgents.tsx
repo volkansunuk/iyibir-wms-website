@@ -2,28 +2,36 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Bot, Boxes, ShoppingBag, ShoppingCart, Factory, TrendingUp, ClipboardList, Scissors, Cpu, MessageSquare, User } from "lucide-react";
+import { Bot, FileSearch2, Wand2, MessageCircle, ShoppingBag, BarChart3, Mic, Cpu, User } from "lucide-react";
 
-const AGENT_ICONS = {
-  inventory: Boxes,
+const CAPABILITY_ICONS: Record<string, React.ComponentType<{ className?: string; style?: React.CSSProperties }>> = {
+  document: FileSearch2,
+  demand: Wand2,
+  query: MessageCircle,
   sales: ShoppingBag,
-  purchase: ShoppingCart,
-  production: Factory,
-  demand: TrendingUp,
-  counting: ClipboardList,
-  outsource: Scissors,
+  analysis: BarChart3,
+  voice: Mic,
 };
 
-const AGENT_COLORS = ["#4F46E5", "#16A34A", "#2563EB", "#7C3AED", "#E11D48", "#D97706", "#0891B2"];
+const CAPABILITY_COLORS: Record<string, string> = {
+  document: "#2563EB",
+  demand: "#7C3AED",
+  query: "#16A34A",
+  sales: "#D97706",
+  analysis: "#0891B2",
+  voice: "#6B7280",
+};
+
+type Capability = {
+  key: string;
+  area: string;
+  name: string;
+  desc: string;
+};
 
 export default function AiAgents() {
   const t = useTranslations("ai");
-
-  const agents = Object.entries(AGENT_ICONS).map(([key, Icon], i) => ({
-    key, Icon, color: AGENT_COLORS[i],
-    name: t(`agents.${key}.name`),
-    desc: t(`agents.${key}.desc`),
-  }));
+  const capabilities = t.raw("capabilities") as Capability[];
 
   return (
     <section id="ai" className="py-24 relative overflow-hidden" style={{ background: "var(--bg-surface)" }}>
@@ -67,38 +75,53 @@ export default function AiAgents() {
         </div>
 
         <div className="grid lg:grid-cols-5 gap-8">
-          {/* Agents grid */}
+          {/* Capability cards */}
           <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {agents.map((agent, i) => {
-              const Icon = agent.Icon;
+            {capabilities.map((cap, i) => {
+              const Icon = CAPABILITY_ICONS[cap.key] ?? Cpu;
+              const color = CAPABILITY_COLORS[cap.key] ?? "#6B7280";
+              const isVoice = cap.key === "voice";
+
               return (
                 <motion.div
-                  key={agent.key}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  key={cap.key}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: i * 0.08 }}
-                  className="flex items-start gap-4 p-4 rounded-xl transition-colors group"
+                  transition={{ delay: i * 0.07 }}
+                  className="relative flex flex-col gap-3 p-4 rounded-xl"
                   style={{
-                    border: "1px solid var(--bg-border)",
-                    background: "var(--bg-card)",
+                    border: `1px solid ${isVoice ? "var(--bg-border)" : `${color}28`}`,
+                    background: isVoice ? "transparent" : `${color}07`,
+                    opacity: isVoice ? 0.6 : 1,
                   }}
                 >
-                  <div
-                    className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-                    style={{ background: `${agent.color}15`, border: `1px solid ${agent.color}35` }}
-                  >
-                    <Icon className="w-5 h-5" style={{ color: agent.color }} />
+                  <div className="flex items-center justify-between">
+                    <div
+                      className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
+                      style={{ background: `${color}18`, border: `1px solid ${color}30` }}
+                    >
+                      <Icon className="w-4 h-4" style={{ color }} />
+                    </div>
+                    <span
+                      className="text-[10px] px-2 py-0.5 rounded-full font-medium"
+                      style={{
+                        background: isVoice ? "rgba(107,114,128,0.12)" : `${color}15`,
+                        color: isVoice ? "#9CA3AF" : color,
+                      }}
+                    >
+                      {cap.area}
+                    </span>
                   </div>
                   <div>
                     <div
                       className="text-sm font-semibold mb-1"
                       style={{ fontFamily: "var(--font-poppins)", color: "var(--text-primary)" }}
                     >
-                      {agent.name}
+                      {cap.name}
                     </div>
                     <div className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
-                      {agent.desc}
+                      {cap.desc}
                     </div>
                   </div>
                 </motion.div>
@@ -122,7 +145,6 @@ export default function AiAgents() {
               <p className="text-sm text-[#C084FC]">{t("protocol")}</p>
             </div>
 
-            {/* Chat window */}
             <div
               className="flex-1 rounded-2xl overflow-hidden"
               style={{ border: "1px solid var(--bg-border)", background: "var(--bg-base)" }}
@@ -138,7 +160,7 @@ export default function AiAgents() {
                 </div>
                 <span className="text-xs ml-2 flex items-center gap-1.5" style={{ color: "var(--text-muted)" }}>
                   <Bot className="w-3.5 h-3.5" />
-                  iyibir AI Agent
+                  iyibir AI
                 </span>
               </div>
 
@@ -178,7 +200,7 @@ export default function AiAgents() {
                       <Bot className="w-3.5 h-3.5 text-[#C084FC]" />
                     </div>
                     <div
-                      className="text-xs p-3 rounded-2xl rounded-bl-sm leading-relaxed"
+                      className="text-xs p-3 rounded-2xl rounded-bl-sm leading-relaxed whitespace-pre-line"
                       style={{
                         background: "var(--bg-card)",
                         border: "1px solid var(--bg-border)",
@@ -195,13 +217,14 @@ export default function AiAgents() {
                     className="w-6 h-6 rounded-full flex items-center justify-center"
                     style={{ background: "rgba(124,58,237,0.2)" }}
                   >
-                    <MessageSquare className="w-3 h-3 text-[#C084FC]" />
+                    <Bot className="w-3 h-3 text-[#C084FC]" />
                   </div>
                   <div className="flex gap-1">
                     {[0, 0.2, 0.4].map((d) => (
                       <motion.div
                         key={d}
                         className="w-1.5 h-1.5 rounded-full bg-[#7C3AED]"
+                        initial={{ scale: 1, opacity: 0.5 }}
                         animate={{ scale: [1, 1.4, 1], opacity: [0.5, 1, 0.5] }}
                         transition={{ duration: 1, delay: d, repeat: Infinity }}
                       />

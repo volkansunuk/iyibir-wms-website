@@ -136,7 +136,7 @@ function MobileMockup() {
               key={i}
               className="w-0.5 rounded-sm"
               style={{
-                height: `${8 + Math.sin(i * 0.8) * 4}px`,
+                height: `${Math.round(8 + Math.sin(i * 0.8) * 4)}px`,
                 background: i % 3 === 0 ? "#9090B0" : "#2A2A3A",
               }}
             />

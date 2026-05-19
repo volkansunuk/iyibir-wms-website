@@ -75,21 +75,20 @@
   },
   "ai": {
     "badge": "Yapay Zeka",
-    "title": "7 Uzman AI Agent",
-    "subtitle": "MCP protokolüyle güçlendirilmiş, depo süreçlerine özel eğitilmiş yapay zeka asistanlarınız 7/24 hizmetinizde.",
+    "title": "Her Operasyonda AI Desteği",
+    "subtitle": "Tek AI asistanınız, tüm depo süreçlerinizde. Logo Tiger verisiyle beslenen, depoya özel eğitilmiş yapay zeka.",
     "protocol": "Model Context Protocol (MCP) ile güvenli AI erişimi",
-    "agents": {
-      "inventory": { "name": "Stok Uzmanı", "desc": "Anlık stok seviyeleri, lot/seri sorgulama, depo bazlı envanter analizi" },
-      "sales": { "name": "Satış Uzmanı", "desc": "Müşteri siparişleri, sevkiyat takibi, irsaliye yönetimi" },
-      "purchase": { "name": "Satın Alma Uzmanı", "desc": "Tedarikçi siparişleri, mal kabul takibi, bekleyen sipariş analizi" },
-      "production": { "name": "Üretim Uzmanı", "desc": "Üretim emirleri, kapasite analizi, bekleyen talepler" },
-      "demand": { "name": "Talep Uzmanı", "desc": "Talep yönetimi, planlama desteği, malzeme ihtiyaç analizi" },
-      "counting": { "name": "Sayım Uzmanı", "desc": "Sayım planlama, stok doğrulama, sayım fark analizi" },
-      "outsource": { "name": "Fason Uzmanı", "desc": "Fason tedarikçi yönetimi, fason sipariş takibi, mamul analizi" }
-    },
+    "capabilities": [
+      { "key": "document", "area": "Mal Kabul", "name": "Belge Tarama", "desc": "Gelen tedarikçi belgelerini AI ile tara, ürünleri otomatik eşleştir ve mal kabul sürecini hızlandır." },
+      { "key": "demand", "area": "Talep", "name": "AI Talep Modu", "desc": "Talep oluştururken akıllı öneriler al, geçmiş hareketlerden miktar ve ürün tahmini yap." },
+      { "key": "query", "area": "Sorgulama", "name": "Anlık Durum Sorgusu", "desc": "Yazarak sor: 'A101 nerede?', 'Bu hafta ne çıktı?', 'Kritik stok var mı?'" },
+      { "key": "sales", "area": "Satış", "name": "Satış Asistanı", "desc": "Sipariş durumları, sevkiyat takibi, müşteri bazlı analiz. Satış ekibine anlık depo görünürlüğü." },
+      { "key": "analysis", "area": "Analiz", "name": "Stok Analizi", "desc": "Kritik stok uyarıları, en aktif ürünler, depo doluluğu ve operasyon verimlilik raporları." },
+      { "key": "voice", "area": "Yakında", "name": "Sesli Operasyon", "desc": "Sesli komutla işlem yap: 'Raf A3'e 5 adet koy'. Ellerin serbest kalsın, AI yönlendirsin." }
+    ],
     "chat_example": {
-      "user": "Ankara deposundaki A101 ürününün mevcut stok miktarı nedir?",
-      "agent": "A101 - Paslanmaz Boru Ø50mm ürününün Ankara deposundaki güncel stoku: **1,240 adet** (3 lot). Son hareket: Bugün 14:23 - Mal Kabul +200 adet."
+      "user": "Bu hafta en çok hareket gören 3 ürün hangisi?",
+      "agent": "Bu haftanın en aktif 3 ürünü:\n1. A101 Paslanmaz Boru — 840 hareket\n2. B205 Flanş Ø60 — 620 hareket\n3. C118 O-Ring Set — 510 hareket"
     }
   },
   "logo": {
@@ -105,6 +104,26 @@
       "Lot ve seri numarası takibi"
     ],
     "note": "Logo Tiger GoDb üzerinden salt-okunur güvenli bağlantı"
+  },
+  "marketplace": {
+    "badge": "E-Ticaret",
+    "title": "Pazaryeri Siparişlerini WMS ile Yönetin",
+    "subtitle": "Trendyol, Hepsiburada ve diğer pazaryerlerinden gelen siparişleri doğrudan WMS'de yönetin. Otomatik sipariş çekme, barkodlu toplama, kargo entegrasyonu.",
+    "coming_soon": "Yakında",
+    "features": [
+      { "name": "Otomatik Sipariş Çekme", "desc": "Pazaryeri siparişleri WMS'e otomatik aktarılır, manuel giriş gerekmez." },
+      { "name": "Barkodlu Toplama", "desc": "Mobil uygulamada sipariş bazlı adım adım yönlendirmeli toplama süreci." },
+      { "name": "Kargo Entegrasyonu", "desc": "Kargo barkodu otomatik oluşturulur, gönderi etiketi hazır çıkar." },
+      { "name": "İade Yönetimi", "desc": "Pazaryeri iadeleri WMS mal kabulüne otomatik yönlendirilir." },
+      { "name": "Stok Senkronizasyonu", "desc": "WMS'deki gerçek zamanlı stok tüm satış kanallarına otomatik yansır." },
+      { "name": "Çoklu Platform", "desc": "Trendyol, Hepsiburada, n11, Amazon TR'yi tek ekrandan yönetin." }
+    ],
+    "stat_1": "500+",
+    "stat_1_label": "Sipariş / Gün",
+    "stat_2": "%99.5",
+    "stat_2_label": "Toplama Doğruluğu",
+    "stat_3": "%60",
+    "stat_3_label": "Daha Hızlı"
   },
   "mockups": {
     "badge": "Çift Platform",

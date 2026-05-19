@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import StatsBar from "@/components/sections/StatsBar";
 import Features from "@/components/sections/Features";
 import AiAgents from "@/components/sections/AiAgents";
+import Marketplace from "@/components/sections/Marketplace";
 import LogoIntegration from "@/components/sections/LogoIntegration";
 import DeviceMockups from "@/components/sections/DeviceMockups";
 import TechStack from "@/components/sections/TechStack";
@@ -30,6 +31,7 @@ export default async function HomePage({
         <StatsBar />
         <Features />
         <AiAgents />
+        <Marketplace />
         <LogoIntegration />
         <DeviceMockups />
         <TechStack />
