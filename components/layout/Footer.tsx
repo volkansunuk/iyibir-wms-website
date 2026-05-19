@@ -28,7 +28,7 @@ export default function Footer() {
     {
       heading: t("support"),
       links: [
-        { label: t("links.docs"), href: "/docs", external: true },
+        { label: t("links.docs"), href: "https://iyibir-wms-docs.vercel.app", external: true },
         { label: t("links.demo"), href: `/${locale}/demo` },
         { label: t("links.contact"), href: `/${locale}/contact` },
       ],
