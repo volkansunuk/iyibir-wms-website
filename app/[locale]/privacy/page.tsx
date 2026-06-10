@@ -19,28 +19,28 @@ export default async function PrivacyPage({
       <main className="pt-24 pb-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1
-            className="text-3xl sm:text-4xl font-extrabold text-white mb-2"
+            className="text-3xl sm:text-4xl font-extrabold text-[var(--text-primary)] mb-2"
             style={{ fontFamily: "var(--font-syne)" }}
           >
             {isTr ? "Gizlilik Politikası ve KVKK Aydınlatma Metni" : "Privacy Policy & KVKK Disclosure"}
           </h1>
-          <p className="text-sm text-[#50506A] mb-10">
+          <p className="text-sm text-[var(--text-muted)] mb-10">
             {isTr ? "Son güncelleme: Mayıs 2025" : "Last updated: May 2025"}
           </p>
 
-          <div className="space-y-8 text-[#9090B0] leading-relaxed">
+          <div className="space-y-8 text-[var(--text-secondary)] leading-relaxed">
             {isTr ? (
               <>
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">1. Veri Sorumlusu</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">1. Veri Sorumlusu</h2>
                   <p>
                     Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (&quot;KVKK&quot;) kapsamında
-                    veri sorumlusu sıfatıyla hareket eden <strong className="text-white">iyibir Yazılım</strong>{" "}
+                    veri sorumlusu sıfatıyla hareket eden <strong className="text-[var(--text-primary)]">iyibir Yazılım</strong>{" "}
                     tarafından hazırlanmıştır.
                   </p>
                   <p className="mt-2">
-                    <strong className="text-white">Adres:</strong> Ankara, Türkiye<br />
-                    <strong className="text-white">E-posta:</strong>{" "}
+                    <strong className="text-[var(--text-primary)]">Adres:</strong> Ankara, Türkiye<br />
+                    <strong className="text-[var(--text-primary)]">E-posta:</strong>{" "}
                     <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
@@ -48,22 +48,22 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">2. İşlenen Kişisel Veriler ve Kategorileri</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">2. İşlenen Kişisel Veriler ve Kategorileri</h2>
                   <p className="mb-3">Aşağıdaki kategorilerdeki kişisel verileriniz işlenebilir:</p>
                   <ul className="list-disc list-inside space-y-1 ml-2">
-                    <li><strong className="text-[#C8C8E0]">Kimlik Verileri:</strong> Ad, soyad, unvan</li>
-                    <li><strong className="text-[#C8C8E0]">İletişim Verileri:</strong> E-posta adresi, telefon numarası</li>
-                    <li><strong className="text-[#C8C8E0]">Firma Bilgileri:</strong> Şirket adı, sektör</li>
-                    <li><strong className="text-[#C8C8E0]">Kullanım Verileri:</strong> Web sitesi ziyaret bilgileri, IP adresi, tarayıcı türü (çerezler aracılığıyla)</li>
-                    <li><strong className="text-[#C8C8E0]">İşlem Verileri:</strong> Demo talep içeriği, iletişim mesajları</li>
+                    <li><strong className="text-[var(--text-primary)]">Kimlik Verileri:</strong> Ad, soyad, unvan</li>
+                    <li><strong className="text-[var(--text-primary)]">İletişim Verileri:</strong> E-posta adresi, telefon numarası</li>
+                    <li><strong className="text-[var(--text-primary)]">Firma Bilgileri:</strong> Şirket adı, sektör</li>
+                    <li><strong className="text-[var(--text-primary)]">Kullanım Verileri:</strong> Web sitesi ziyaret bilgileri, IP adresi, tarayıcı türü (çerezler aracılığıyla)</li>
+                    <li><strong className="text-[var(--text-primary)]">İşlem Verileri:</strong> Demo talep içeriği, iletişim mesajları</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">3. Kişisel Verilerin İşlenme Amaçları ve Hukuki Dayanakları</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">3. Kişisel Verilerin İşlenme Amaçları ve Hukuki Dayanakları</h2>
                   <div className="space-y-4">
                     <div>
-                      <p className="text-[#C8C8E0] font-medium mb-1">Demo ve iletişim talepleri</p>
+                      <p className="text-[var(--text-primary)] font-medium mb-1">Demo ve iletişim talepleri</p>
                       <p>
                         Demo talebinizi değerlendirmek, sizinle iletişime geçmek ve ürün bilgisi sunmak amacıyla
                         işlenir. Hukuki dayanak: KVKK m. 5/2-c (sözleşmenin kurulması veya ifasıyla doğrudan ilgili
@@ -71,14 +71,14 @@ export default async function PrivacyPage({
                       </p>
                     </div>
                     <div>
-                      <p className="text-[#C8C8E0] font-medium mb-1">Müşteri ilişkileri yönetimi</p>
+                      <p className="text-[var(--text-primary)] font-medium mb-1">Müşteri ilişkileri yönetimi</p>
                       <p>
                         Mevcut ve potansiyel müşterilerle ilişkilerin sürdürülmesi amacıyla işlenir. Hukuki dayanak:
                         KVKK m. 5/2-f (meşru menfaat).
                       </p>
                     </div>
                     <div>
-                      <p className="text-[#C8C8E0] font-medium mb-1">Yasal yükümlülükler</p>
+                      <p className="text-[var(--text-primary)] font-medium mb-1">Yasal yükümlülükler</p>
                       <p>
                         Vergi, muhasebe ve diğer yasal yükümlülüklerin yerine getirilmesi amacıyla işlenir. Hukuki
                         dayanak: KVKK m. 5/2-ç (kanunlarda açıkça öngörülmesi).
@@ -88,7 +88,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">4. Kişisel Verilerin Aktarıldığı Taraflar</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">4. Kişisel Verilerin Aktarıldığı Taraflar</h2>
                   <p className="mb-3">
                     Kişisel verileriniz; hizmet altyapısının sağlanması amacıyla aşağıdaki kategorilerdeki üçüncü
                     taraflarla paylaşılabilir:
@@ -105,7 +105,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">5. Yurt Dışına Veri Aktarımı</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">5. Yurt Dışına Veri Aktarımı</h2>
                   <p>
                     Web sitesinin barındırılması ve e-posta hizmetleri için yurt dışı sunucular kullanılabilir. Bu
                     aktarımlar; KVKK m. 9 uyarınca açık rızanıza dayanarak veya Kişisel Verileri Koruma Kurulu
@@ -114,7 +114,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">6. Kişisel Verilerin Saklama Süresi</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">6. Kişisel Verilerin Saklama Süresi</h2>
                   <p>
                     Kişisel verileriniz, işlenme amacının gerektirdiği süre boyunca ve yasal saklama yükümlülükleri
                     kapsamında muhafaza edilir. Demo taleplerinize ilişkin veriler, müşteri ilişkisinin sona
@@ -124,7 +124,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">7. Çerezler (Cookies)</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">7. Çerezler (Cookies)</h2>
                   <p>
                     Web sitemiz; temel işlevsellik, performans analizi ve kullanıcı deneyiminin iyileştirilmesi
                     amacıyla çerezler kullanabilir. Zorunlu çerezler için onayınıza gerek olmaksızın kullanılır;
@@ -135,14 +135,14 @@ export default async function PrivacyPage({
                     Kullanılan başlıca çerez kategorileri:
                   </p>
                   <ul className="list-disc list-inside space-y-1 ml-2 mt-1">
-                    <li><strong className="text-[#C8C8E0]">Zorunlu çerezler:</strong> Sitenin temel işlevleri için gereklidir</li>
-                    <li><strong className="text-[#C8C8E0]">Analitik çerezler:</strong> Ziyaretçi davranışını anlamamızı sağlar</li>
-                    <li><strong className="text-[#C8C8E0]">Tercih çerezleri:</strong> Dil seçimi gibi kullanıcı tercihlerini hatırlar</li>
+                    <li><strong className="text-[var(--text-primary)]">Zorunlu çerezler:</strong> Sitenin temel işlevleri için gereklidir</li>
+                    <li><strong className="text-[var(--text-primary)]">Analitik çerezler:</strong> Ziyaretçi davranışını anlamamızı sağlar</li>
+                    <li><strong className="text-[var(--text-primary)]">Tercih çerezleri:</strong> Dil seçimi gibi kullanıcı tercihlerini hatırlar</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">8. İlgili Kişi Hakları (KVKK m. 11)</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">8. İlgili Kişi Hakları (KVKK m. 11)</h2>
                   <p className="mb-3">
                     Kişisel verilerinizle ilgili olarak aşağıdaki haklara sahipsiniz:
                   </p>
@@ -159,7 +159,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">9. Başvuru Yöntemi</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">9. Başvuru Yöntemi</h2>
                   <p>
                     Haklarınızı kullanmak için yazılı başvurunuzu{" "}
                     <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
@@ -170,22 +170,22 @@ export default async function PrivacyPage({
                   </p>
                   <p className="mt-2">
                     Kişisel Verileri Koruma Kurulu&apos;na şikâyette bulunma hakkınız saklıdır:{" "}
-                    <span className="text-[#C8C8E0]">www.kvkk.gov.tr</span>
+                    <span className="text-[var(--text-primary)]">www.kvkk.gov.tr</span>
                   </p>
                 </section>
               </>
             ) : (
               <>
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">1. Data Controller</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">1. Data Controller</h2>
                   <p>
-                    This disclosure text has been prepared by <strong className="text-white">iyibir Yazılım</strong>{" "}
+                    This disclosure text has been prepared by <strong className="text-[var(--text-primary)]">iyibir Yazılım</strong>{" "}
                     acting as data controller within the scope of the Turkish Personal Data Protection Law No. 6698
                     (&quot;KVKK&quot;).
                   </p>
                   <p className="mt-2">
-                    <strong className="text-white">Address:</strong> Ankara, Turkey<br />
-                    <strong className="text-white">Email:</strong>{" "}
+                    <strong className="text-[var(--text-primary)]">Address:</strong> Ankara, Turkey<br />
+                    <strong className="text-[var(--text-primary)]">Email:</strong>{" "}
                     <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
@@ -193,22 +193,22 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">2. Personal Data Processed and Categories</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">2. Personal Data Processed and Categories</h2>
                   <p className="mb-3">The following categories of personal data may be processed:</p>
                   <ul className="list-disc list-inside space-y-1 ml-2">
-                    <li><strong className="text-[#C8C8E0]">Identity Data:</strong> Name, surname, title</li>
-                    <li><strong className="text-[#C8C8E0]">Contact Data:</strong> Email address, phone number</li>
-                    <li><strong className="text-[#C8C8E0]">Company Information:</strong> Company name, industry sector</li>
-                    <li><strong className="text-[#C8C8E0]">Usage Data:</strong> Website visit information, IP address, browser type (via cookies)</li>
-                    <li><strong className="text-[#C8C8E0]">Transaction Data:</strong> Demo request content, contact messages</li>
+                    <li><strong className="text-[var(--text-primary)]">Identity Data:</strong> Name, surname, title</li>
+                    <li><strong className="text-[var(--text-primary)]">Contact Data:</strong> Email address, phone number</li>
+                    <li><strong className="text-[var(--text-primary)]">Company Information:</strong> Company name, industry sector</li>
+                    <li><strong className="text-[var(--text-primary)]">Usage Data:</strong> Website visit information, IP address, browser type (via cookies)</li>
+                    <li><strong className="text-[var(--text-primary)]">Transaction Data:</strong> Demo request content, contact messages</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">3. Purposes and Legal Bases for Processing</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">3. Purposes and Legal Bases for Processing</h2>
                   <div className="space-y-4">
                     <div>
-                      <p className="text-[#C8C8E0] font-medium mb-1">Demo and contact requests</p>
+                      <p className="text-[var(--text-primary)] font-medium mb-1">Demo and contact requests</p>
                       <p>
                         Processed to evaluate your demo request, contact you, and provide product information. Legal
                         basis: KVKK Art. 5/2-c (directly related to establishment or performance of a contract) and
@@ -216,14 +216,14 @@ export default async function PrivacyPage({
                       </p>
                     </div>
                     <div>
-                      <p className="text-[#C8C8E0] font-medium mb-1">Customer relationship management</p>
+                      <p className="text-[var(--text-primary)] font-medium mb-1">Customer relationship management</p>
                       <p>
                         Processed to maintain relationships with existing and potential customers. Legal basis:
                         KVKK Art. 5/2-f (legitimate interest).
                       </p>
                     </div>
                     <div>
-                      <p className="text-[#C8C8E0] font-medium mb-1">Legal obligations</p>
+                      <p className="text-[var(--text-primary)] font-medium mb-1">Legal obligations</p>
                       <p>
                         Processed to fulfill tax, accounting, and other legal obligations. Legal basis: KVKK Art. 5/2-ç
                         (explicitly provided for by law).
@@ -233,7 +233,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">4. Third Parties to Whom Data May Be Transferred</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">4. Third Parties to Whom Data May Be Transferred</h2>
                   <p className="mb-3">
                     Your personal data may be shared with the following categories of third parties for the purpose of
                     providing service infrastructure:
@@ -250,7 +250,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">5. International Data Transfers</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">5. International Data Transfers</h2>
                   <p>
                     Overseas servers may be used for website hosting and email services. Such transfers are made based
                     on your explicit consent under KVKK Art. 9 or to countries deemed to have adequate protection by
@@ -259,7 +259,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">6. Data Retention Periods</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">6. Data Retention Periods</h2>
                   <p>
                     Your personal data is retained for as long as required by the purpose of processing and in
                     accordance with legal retention obligations. Data related to demo requests is retained for a
@@ -269,7 +269,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">7. Cookies</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">7. Cookies</h2>
                   <p>
                     Our website may use cookies for core functionality, performance analytics, and improving user
                     experience. Strictly necessary cookies are used without consent; analytical and marketing cookies
@@ -277,14 +277,14 @@ export default async function PrivacyPage({
                   </p>
                   <p className="mt-2">Main cookie categories used:</p>
                   <ul className="list-disc list-inside space-y-1 ml-2 mt-1">
-                    <li><strong className="text-[#C8C8E0]">Strictly necessary cookies:</strong> Required for basic site functions</li>
-                    <li><strong className="text-[#C8C8E0]">Analytics cookies:</strong> Help us understand visitor behavior</li>
-                    <li><strong className="text-[#C8C8E0]">Preference cookies:</strong> Remember user preferences such as language selection</li>
+                    <li><strong className="text-[var(--text-primary)]">Strictly necessary cookies:</strong> Required for basic site functions</li>
+                    <li><strong className="text-[var(--text-primary)]">Analytics cookies:</strong> Help us understand visitor behavior</li>
+                    <li><strong className="text-[var(--text-primary)]">Preference cookies:</strong> Remember user preferences such as language selection</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">8. Your Rights (KVKK Art. 11)</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">8. Your Rights (KVKK Art. 11)</h2>
                   <p className="mb-3">You have the following rights regarding your personal data:</p>
                   <ul className="list-disc list-inside space-y-1 ml-2">
                     <li>To learn whether your personal data is being processed</li>
@@ -299,7 +299,7 @@ export default async function PrivacyPage({
                 </section>
 
                 <section>
-                  <h2 className="text-lg font-semibold text-white mb-3">9. How to Exercise Your Rights</h2>
+                  <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">9. How to Exercise Your Rights</h2>
                   <p>
                     To exercise your rights, please send your written request to{" "}
                     <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
@@ -310,7 +310,7 @@ export default async function PrivacyPage({
                   </p>
                   <p className="mt-2">
                     You also have the right to file a complaint with the Personal Data Protection Authority:{" "}
-                    <span className="text-[#C8C8E0]">www.kvkk.gov.tr</span>
+                    <span className="text-[var(--text-primary)]">www.kvkk.gov.tr</span>
                   </p>
                 </section>
               </>

@@ -257,7 +257,7 @@
     "custom": "Custom Price",
     "most_popular": "Most Popular",
     "per_user": "terminals",
-    "note": "All prices exclude VAT. Annual billing available with 15% discount. Prices are in Turkish Lira.",
+    "note": "All prices exclude VAT. Annual billing available with 20% discount. Prices are in Turkish Lira.",
     "plans": [
       {
         "name": "Starter",

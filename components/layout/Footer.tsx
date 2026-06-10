@@ -12,16 +12,16 @@ export default function Footer() {
     {
       heading: t("product"),
       links: [
-        { label: t("links.features"), href: "#features" },
-        { label: t("links.integration"), href: "#integration" },
-        { label: t("links.mobile"), href: "#mockups" },
-        { label: t("links.pricing"), href: "#pricing" },
+        { label: t("links.features"), href: `/${locale}/#features` },
+        { label: t("links.integration"), href: `/${locale}/#integration` },
+        { label: t("links.mobile"), href: `/${locale}/#mockups` },
+        { label: t("links.pricing"), href: `/${locale}/#pricing` },
       ],
     },
     {
       heading: t("company"),
       links: [
-        { label: t("links.about"), href: "#" },
+        { label: t("links.about"), href: `/${locale}/#` },
         { label: t("links.main_site"), href: "https://www.iyibiryazilim.com.tr", external: true },
       ],
     },

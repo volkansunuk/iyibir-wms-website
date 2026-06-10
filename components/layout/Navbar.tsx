@@ -22,11 +22,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "#features", label: t("features") },
-    { href: "#integration", label: t("integration") },
-    { href: "#ai", label: "AI" },
-    { href: "#pricing", label: t("pricing") },
-    { href: "#faq", label: t("faq") },
+    { href: `/${locale}/#features`, label: t("features") },
+    { href: `/${locale}/#integration`, label: t("integration") },
+    { href: `/${locale}/#ai`, label: "AI" },
+    { href: `/${locale}/#pricing`, label: t("pricing") },
+    { href: `/${locale}/#faq`, label: t("faq") },
   ];
 
   return (
