@@ -43,8 +43,8 @@ export default async function TermsPage({
                 <section>
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">2. Hizmet Tanımı</h2>
                   <p>
-                    iyibir WMS Platform, Logo Tiger ERP ile entegre çalışan, depo süreçlerini dijitalleştiren kurumsal
-                    bir B2B yazılım hizmetidir. Hizmet kapsamı; web ve mobil uygulama erişimi, AI asistan özellikleri,
+                    iyibir WMS Platform, Logo ERP ile entegre çalışan, depo süreçlerini dijitalleştiren kurumsal
+                    bir yazılım hizmetidir. Hizmet kapsamı; web ve mobil uygulama erişimi, AI asistan özellikleri,
                     entegrasyon servisleri ve teknik desteği içerir.
                   </p>
                   <p className="mt-2">
@@ -145,7 +145,7 @@ export default async function TermsPage({
                 <section>
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">11. Uygulanacak Hukuk ve Yetki</h2>
                   <p>
-                    Bu kullanım koşulları Türk hukukuna tabidir. Uyuşmazlıkların çözümünde Ankara mahkemeleri ve
+                    Bu kullanım koşulları Türk hukukuna tabidir. Uyuşmazlıkların çözümünde Bursa mahkemeleri ve
                     icra daireleri yetkilidir.
                   </p>
                 </section>
@@ -154,8 +154,8 @@ export default async function TermsPage({
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">12. İletişim</h2>
                   <p>
                     Sorularınız için:{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
-                      info@iyibiryazilim.com.tr
+                    <a href="mailto:destek@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
+                      destek@iyibiryazilim.com.tr
                     </a>
                   </p>
                 </section>
@@ -174,7 +174,7 @@ export default async function TermsPage({
                 <section>
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">2. Service Definition</h2>
                   <p>
-                    iyibir WMS Platform is an enterprise B2B software service that integrates with Logo Tiger ERP and
+                    iyibir WMS Platform is an enterprise software service that integrates with Logo ERP and
                     digitizes warehouse processes. The service scope includes web and mobile application access, AI
                     assistant features, integration services, and technical support.
                   </p>
@@ -276,7 +276,7 @@ export default async function TermsPage({
                 <section>
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">11. Governing Law and Jurisdiction</h2>
                   <p>
-                    These terms of service are governed by Turkish law. Ankara courts and enforcement offices have
+                    These terms of service are governed by Turkish law. Bursa courts and enforcement offices have
                     jurisdiction for dispute resolution.
                   </p>
                 </section>
@@ -285,8 +285,8 @@ export default async function TermsPage({
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">12. Contact</h2>
                   <p>
                     For questions:{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
-                      info@iyibiryazilim.com.tr
+                    <a href="mailto:destek@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
+                      destek@iyibiryazilim.com.tr
                     </a>
                   </p>
                 </section>

@@ -77,7 +77,7 @@
   "ai": {
     "badge": "Yapay Zeka",
     "title": "Her Operasyonda AI Desteği",
-    "subtitle": "Tek AI asistanınız, tüm depo süreçlerinizde. Logo Tiger verisiyle beslenen, depoya özel eğitilmiş yapay zeka.",
+    "subtitle": "Tek AI asistanınız, tüm depo süreçlerinizde. Logo ERP verisiyle beslenen, depoya özel eğitilmiş yapay zeka.",
     "protocol": "Model Context Protocol (MCP) ile güvenli AI erişimi",
     "capabilities": [
       { "key": "document", "area": "Mal Kabul", "name": "Belge Tarama", "desc": "Gelen tedarikçi belgelerini AI ile tara, ürünleri otomatik eşleştir ve mal kabul sürecini hızlandır." },
@@ -94,8 +94,8 @@
   },
   "logo": {
     "badge": "ERP Entegrasyonu",
-    "title": "Logo Tiger ile Sorunsuz Entegrasyon",
-    "subtitle": "Mevcut Logo Tiger ERP sisteminizle tam uyumlu. Verilerinizi ikiye katlamadan, mevcut altyapınızı koruyarak güçlendirin.",
+    "title": "Logo ERP ile Sorunsuz Entegrasyon",
+    "subtitle": "Mevcut Logo ERP sisteminizle tam uyumlu. Verilerinizi ikiye katlamadan, mevcut altyapınızı koruyarak güçlendirin.",
     "features": [
       "Gerçek zamanlı stok senkronizasyonu",
       "Satış ve satın alma siparişleri",
@@ -104,7 +104,7 @@
       "Üretim emirleri entegrasyonu",
       "Lot ve seri numarası takibi"
     ],
-    "note": "Logo Tiger GoDb üzerinden salt-okunur güvenli bağlantı"
+    "note": "Logo GoDb üzerinden salt-okunur güvenli bağlantı"
   },
   "geliver": {
     "badge": "Kargo Entegrasyonu",
@@ -317,12 +317,12 @@
     "subtitle": "iyibir WMS hakkında en çok sorulan soruların yanıtları.",
     "items": [
       {
-        "q": "Logo Tiger entegrasyonu nasıl çalışır?",
-        "a": "GoDb salt-okunur bağlantısı üzerinden Logo Tiger ERP sisteminize güvenli erişim sağlanır. Mevcut ERP yapınıza dokunmadan, veri ikizlemesi yapmadan WMS özelliklerini eklersiniz. Stok, sipariş ve cari veriler anlık senkronize edilir."
+        "q": "Logo entegrasyonu nasıl çalışır?",
+        "a": "GoDb salt-okunur bağlantısı üzerinden Logo ERP sisteminize güvenli erişim sağlanır. Mevcut ERP yapınıza dokunmadan, veri ikizlemesi yapmadan WMS özelliklerini eklersiniz. Stok, sipariş ve cari veriler anlık senkronize edilir."
       },
       {
         "q": "Kurulum ve geçiş süreci ne kadar sürer?",
-        "a": "Standart kurulum genellikle 2-4 hafta içinde tamamlanır. Bu süreç Logo Tiger bağlantısı kurulumu, sistem konfigürasyonu, veri aktarımı ve personel eğitimini kapsar. Daha büyük operasyonlar için 6-8 haftalık proje planı oluşturulur."
+        "a": "Standart kurulum genellikle 2-4 hafta içinde tamamlanır. Bu süreç Logo ERP bağlantısı kurulumu, sistem konfigürasyonu, veri aktarımı ve personel eğitimini kapsar. Daha büyük operasyonlar için 6-8 haftalık proje planı oluşturulur."
       },
       {
         "q": "Mobil uygulama hangi cihazları destekler?",

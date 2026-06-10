@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   keywords: [
     "depo yönetim sistemi",
     "WMS",
-    "Logo Tiger entegrasyonu",
+    "Logo entegrasyonu",
     "barkod",
     "mal kabul",
     "sevkiyat",

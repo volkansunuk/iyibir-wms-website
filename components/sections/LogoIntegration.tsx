@@ -19,7 +19,7 @@ type Slide = {
 const favicon = (domain: string) => `https://www.google.com/s2/favicons?sz=128&domain=${domain}`;
 
 const SLIDES: Slide[] = [
-  { key: "logo",    short: "LT", name: "Logo Tiger", color: "#2563EB", accent: "#28A8F4", Icon: Zap,      logoSrc: favicon("logo.com.tr") },
+  { key: "logo",    short: "L", name: "Logo ERP", color: "#2563EB", accent: "#28A8F4", Icon: Zap,      logoSrc: favicon("logo.com.tr") },
   { key: "geliver", short: "G",  name: "Geliver.io", color: "#0891B2", accent: "#38BDF8", Icon: Truck,    logoSrc: favicon("geliver.io") },
   { key: "uetds",   short: "U",  name: "UETDS",      color: "#16A34A", accent: "#4ADE80", Icon: FileCheck, logoSrc: favicon("uab.gov.tr") },
 ];

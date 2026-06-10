@@ -77,7 +77,7 @@
   "ai": {
     "badge": "Artificial Intelligence",
     "title": "AI Support Across Every Operation",
-    "subtitle": "One AI assistant for all your warehouse processes. Powered by Logo Tiger data, trained specifically for warehouse operations.",
+    "subtitle": "One AI assistant for all your warehouse processes. Powered by Logo ERP data, trained specifically for warehouse operations.",
     "protocol": "Secure AI access via Model Context Protocol (MCP)",
     "capabilities": [
       { "key": "document", "area": "Goods Receipt", "name": "Document Scanning", "desc": "Scan incoming supplier documents with AI, auto-match products, and accelerate the goods receipt process." },
@@ -94,8 +94,8 @@
   },
   "logo": {
     "badge": "ERP Integration",
-    "title": "Seamless Integration with Logo Tiger",
-    "subtitle": "Fully compatible with your existing Logo Tiger ERP system. Enhance your infrastructure without doubling your data or disrupting existing workflows.",
+    "title": "Seamless Integration with Logo ERP",
+    "subtitle": "Fully compatible with your existing Logo ERP system. Enhance your infrastructure without doubling your data or disrupting existing workflows.",
     "features": [
       "Real-time stock synchronization",
       "Sales and purchase orders",
@@ -104,7 +104,7 @@
       "Production order integration",
       "Lot and serial number tracking"
     ],
-    "note": "Secure read-only connection via Logo Tiger GoDb"
+    "note": "Secure read-only connection via Logo GoDb"
   },
   "geliver": {
     "badge": "Shipping Integration",
@@ -316,8 +316,8 @@
     "subtitle": "Answers to the most common questions about iyibir WMS.",
     "items": [
       {
-        "q": "How does Logo Tiger integration work?",
-        "a": "iyibir WMS connects to your Logo Tiger database via a read-only GoDb connection. This means all ERP data (customers, suppliers, products, stock, orders) flows directly into WMS in real time. The integration is one-directional: WMS reads data from Logo and writes completed warehouse transactions (e.g., waybills) back to Logo Tiger. Your existing ERP infrastructure is not disrupted."
+        "q": "How does Logo ERP integration work?",
+        "a": "iyibir WMS connects to your Logo ERP database via a read-only GoDb connection. This means all ERP data (customers, suppliers, products, stock, orders) flows directly into WMS in real time. The integration is one-directional: WMS reads data from Logo and writes completed warehouse transactions (e.g., waybills) back to Logo ERP. Your existing ERP infrastructure is not disrupted."
       },
       {
         "q": "How long does implementation take?",

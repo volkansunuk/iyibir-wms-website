@@ -39,10 +39,10 @@ export default async function PrivacyPage({
                     tarafından hazırlanmıştır.
                   </p>
                   <p className="mt-2">
-                    <strong className="text-[var(--text-primary)]">Adres:</strong> Ankara, Türkiye<br />
+                    <strong className="text-[var(--text-primary)]">Adres:</strong> Nilüfer, Bursa<br />
                     <strong className="text-[var(--text-primary)]">E-posta:</strong>{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
-                      info@iyibiryazilim.com.tr
+                    <a href="mailto:destek@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
+                      destek@iyibiryazilim.com.tr
                     </a>
                   </p>
                 </section>
@@ -162,8 +162,8 @@ export default async function PrivacyPage({
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">9. Başvuru Yöntemi</h2>
                   <p>
                     Haklarınızı kullanmak için yazılı başvurunuzu{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
-                      info@iyibiryazilim.com.tr
+                    <a href="mailto:destek@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
+                      destek@iyibiryazilim.com.tr
                     </a>{" "}
                     adresine iletebilirsiniz. Başvurularınız en geç 30 (otuz) gün içinde sonuçlandırılır.
                     Başvuruda kimliğinizi doğrulayabilecek bilgilerin bulunması gerekmektedir.
@@ -184,10 +184,10 @@ export default async function PrivacyPage({
                     (&quot;KVKK&quot;).
                   </p>
                   <p className="mt-2">
-                    <strong className="text-[var(--text-primary)]">Address:</strong> Ankara, Turkey<br />
+                    <strong className="text-[var(--text-primary)]">Address:</strong> Nilüfer, Bursa<br />
                     <strong className="text-[var(--text-primary)]">Email:</strong>{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
-                      info@iyibiryazilim.com.tr
+                    <a href="mailto:destek@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
+                      destek@iyibiryazilim.com.tr
                     </a>
                   </p>
                 </section>
@@ -302,8 +302,8 @@ export default async function PrivacyPage({
                   <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">9. How to Exercise Your Rights</h2>
                   <p>
                     To exercise your rights, please send your written request to{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
-                      info@iyibiryazilim.com.tr
+                    <a href="mailto:destek@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
+                      destek@iyibiryazilim.com.tr
                     </a>
                     . Requests will be concluded within 30 (thirty) days. Your application must include information
                     that can verify your identity.
