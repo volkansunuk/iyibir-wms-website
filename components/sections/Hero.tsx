@@ -216,7 +216,7 @@ export default function Hero() {
           <div>
             <motion.div
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
-              className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 rounded-full text-sm text-[#7B6CF0]"
+              className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 rounded-full text-sm text-[#0B79D0]"
               style={{ border: "1px solid rgba(11,121,208,0.35)", background: "rgba(11,121,208,0.08)" }}
             >
               <Sparkles className="w-3.5 h-3.5" />

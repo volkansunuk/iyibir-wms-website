@@ -42,7 +42,7 @@ export default function Pricing() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
+            className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#0B79D0] uppercase tracking-wider"
             style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.07)" }}
           >
             <Zap className="w-3 h-3" />
@@ -155,7 +155,7 @@ export default function Pricing() {
                         border: "1px solid rgba(11,121,208,0.3)",
                       }}
                     >
-                      <Check className="w-2.5 h-2.5 text-[#7B6CF0]" />
+                      <Check className="w-2.5 h-2.5 text-[#0B79D0]" />
                     </div>
                     <span style={{ color: "var(--text-secondary)" }}>{feature}</span>
                   </li>

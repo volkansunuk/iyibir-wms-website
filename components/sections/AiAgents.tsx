@@ -37,7 +37,7 @@ export default function AiAgents() {
     <section id="ai" className="py-24 relative overflow-hidden" style={{ background: "var(--bg-surface)" }}>
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-[0.04] pointer-events-none"
-        style={{ background: "radial-gradient(circle, #7C3AED 0%, transparent 70%)", filter: "blur(60px)" }}
+        style={{ background: "radial-gradient(circle, #0B79D0 0%, transparent 70%)", filter: "blur(60px)" }}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -47,7 +47,7 @@ export default function AiAgents() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#38BDF8] uppercase tracking-wider"
-            style={{ border: "1px solid rgba(124,58,237,0.25)", background: "rgba(124,58,237,0.08)" }}
+            style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.08)" }}
           >
             <Cpu className="w-3 h-3" />
             {t("badge")}
@@ -139,7 +139,7 @@ export default function AiAgents() {
           >
             <div
               className="p-4 rounded-xl flex items-center gap-3"
-              style={{ border: "1px solid rgba(124,58,237,0.25)", background: "rgba(124,58,237,0.08)" }}
+              style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.08)" }}
             >
               <Cpu className="w-5 h-5 text-[#38BDF8] flex-shrink-0" />
               <p className="text-sm text-[#38BDF8]">{t("protocol")}</p>
@@ -195,7 +195,7 @@ export default function AiAgents() {
                   <div className="flex items-end gap-2 max-w-[90%]">
                     <div
                       className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0"
-                      style={{ background: "rgba(124,58,237,0.2)", border: "1px solid rgba(124,58,237,0.3)" }}
+                      style={{ background: "rgba(11,121,208,0.2)", border: "1px solid rgba(11,121,208,0.3)" }}
                     >
                       <Bot className="w-3.5 h-3.5 text-[#38BDF8]" />
                     </div>
@@ -215,7 +215,7 @@ export default function AiAgents() {
                 <div className="flex items-center gap-2">
                   <div
                     className="w-6 h-6 rounded-full flex items-center justify-center"
-                    style={{ background: "rgba(124,58,237,0.2)" }}
+                    style={{ background: "rgba(11,121,208,0.2)" }}
                   >
                     <Bot className="w-3 h-3 text-[#38BDF8]" />
                   </div>
@@ -223,7 +223,7 @@ export default function AiAgents() {
                     {[0, 0.2, 0.4].map((d) => (
                       <motion.div
                         key={d}
-                        className="w-1.5 h-1.5 rounded-full bg-[#7C3AED]"
+                        className="w-1.5 h-1.5 rounded-full bg-[#0B79D0]"
                         initial={{ scale: 1, opacity: 0.5 }}
                         animate={{ scale: [1, 1.4, 1], opacity: [0.5, 1, 0.5] }}
                         transition={{ duration: 1, delay: d, repeat: Infinity }}

@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
               <span className="text-base font-bold" style={{ fontFamily: "var(--font-poppins)" }}>
                 <span style={{ color: "var(--text-primary)" }}>iyibir</span>
-                <span className="text-[#7B6CF0]">.WMS</span>
+                <span className="text-[#0B79D0]">.WMS</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed mb-4" style={{ color: "var(--text-muted)" }}>

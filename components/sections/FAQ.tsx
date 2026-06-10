@@ -19,7 +19,7 @@ export default function FAQ() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
+            className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#0B79D0] uppercase tracking-wider"
             style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.07)" }}
           >
             <HelpCircle className="w-3 h-3" />
@@ -80,7 +80,7 @@ export default function FAQ() {
                     style={{
                       background: isOpen ? "rgba(11,121,208,0.2)" : "var(--bg-base)",
                       border: `1px solid ${isOpen ? "rgba(11,121,208,0.4)" : "var(--bg-border)"}`,
-                      color: isOpen ? "#7B6CF0" : "var(--text-muted)",
+                      color: isOpen ? "#0B79D0" : "var(--text-muted)",
                     }}
                   >
                     {isOpen ? <Minus className="w-3.5 h-3.5" /> : <Plus className="w-3.5 h-3.5" />}

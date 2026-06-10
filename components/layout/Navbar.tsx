@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <span className="text-lg font-bold tracking-tight" style={{ fontFamily: "var(--font-poppins)" }}>
             <span style={{ color: "var(--text-primary)" }}>iyibir</span>
-            <span className="text-[#7B6CF0]">.WMS</span>
+            <span className="text-[#0B79D0]">.WMS</span>
           </span>
         </Link>
 
