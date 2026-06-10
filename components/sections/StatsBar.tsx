@@ -26,7 +26,7 @@ export default function StatsBar() {
   const t = useTranslations("stats");
 
   const stats = [
-    { value: 5, suffix: "+", label: t("customers"), color: "#0B79D0" },
+    { value: 53, suffix: "", label: t("customers"), color: "#0B79D0" },
     { value: 1000, suffix: "+", label: t("daily_ops"), color: "#2563EB" },
     { value: 18, suffix: "+", label: t("op_types"), color: "#16A34A" },
     { value: 6, suffix: "", label: t("ai_agents"), color: "#0B79D0" },
