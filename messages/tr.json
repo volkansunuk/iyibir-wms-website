@@ -128,10 +128,10 @@
   "mockups": {
     "badge": "Çift Platform",
     "title": "Web ve Mobil'de Tam Güç",
-    "subtitle": "Ofis yöneticileriniz için Blazor web uygulaması, saha ekibiniz için .NET MAUI mobil uygulama.",
+    "subtitle": "Ofis yöneticileriniz için Blazor web uygulaması, saha ekibiniz için mobil uygulama.",
     "web_title": "Blazor Web Uygulaması",
     "web_desc": "Planlama, raporlama ve yönetim için gelişmiş admin paneli",
-    "mobile_title": "MAUI Mobil Uygulama",
+    "mobile_title": "Mobil Uygulama",
     "mobile_desc": "Android/iOS barkod tarama, offline destek, hızlı operasyon",
     "features": ["Barkod & QR Tarama", "Offline Çalışma", "Anlık Bildirimler", "Koyu/Açık Tema"]
   },
@@ -191,9 +191,9 @@
     "badge": "İletişim",
     "title": "Bizimle İletişime Geçin",
     "subtitle": "Sorularınız için teknik ekibimiz her zaman hazır.",
-    "address": "Ankara, Türkiye",
-    "email": "info@iyibiryazilim.com.tr",
-    "phone": "+90 312 000 00 00",
+    "address": "23 Nisan Mah. Atabulvarı, Güzell Tower İş Merkezi K:7 D:26, Nilüfer / Bursa",
+    "email": "destek@iyibiryazilim.com.tr",
+    "phone": "+90 850 808 28 81",
     "website": "www.iyibiryazilim.com.tr"
   },
   "footer": {
@@ -218,7 +218,7 @@
       "terms": "Kullanım Koşulları",
       "kvkk": "KVKK Aydınlatma Metni"
     },
-    "copyright": "© 2025 iyibir Yazılım. Tüm hakları saklıdır.",
+    "copyright": "© 2026 iyibir Yazılım. Tüm hakları saklıdır.",
     "built_with": "iyibir Yazılım tarafından Claude Code desteği ile geliştirilmiştir.",
     "kvkk_notice": "Bu site çerez kullanmaktadır. Kişisel verileriniz KVKK kapsamında korunmaktadır."
   },

@@ -6,29 +6,29 @@ import { Monitor, Smartphone, Check, Wifi, BatteryFull } from "lucide-react";
 
 function WebMockup() {
   return (
-    <div className="w-full rounded-xl overflow-hidden border border-[#2A2A3A] bg-[#0A0A0F] shadow-2xl shadow-black/50">
+    <div className="w-full rounded-xl overflow-hidden border border-[var(--bg-border)] bg-[var(--bg-base)] shadow-2xl shadow-black/15">
       {/* Browser chrome */}
-      <div className="flex items-center gap-2 px-3 py-2 bg-[#16161E] border-b border-[#2A2A3A]">
+      <div className="flex items-center gap-2 px-3 py-2 bg-[var(--bg-card)] border-b border-[var(--bg-border)]">
         <div className="flex gap-1.5">
           <div className="w-2.5 h-2.5 rounded-full bg-[#E11D48]/60" />
           <div className="w-2.5 h-2.5 rounded-full bg-[#D97706]/60" />
           <div className="w-2.5 h-2.5 rounded-full bg-[#16A34A]/60" />
         </div>
-        <div className="flex-1 mx-2 bg-[#0A0A0F] rounded px-2 py-0.5">
-          <span className="text-xs text-[#50506A]">wms.iyibiryazilim.com.tr</span>
+        <div className="flex-1 mx-2 bg-[var(--bg-base)] rounded px-2 py-0.5">
+          <span className="text-xs text-[var(--text-muted)]">wms.iyibiryazilim.com.tr</span>
         </div>
       </div>
 
       {/* App content */}
       <div className="p-3 space-y-2.5">
         {/* Top nav */}
-        <div className="flex items-center justify-between p-2 bg-[#16161E] rounded-lg">
+        <div className="flex items-center justify-between p-2 bg-[var(--bg-card)] rounded-lg">
           <div className="flex items-center gap-2">
             <div className="w-5 h-5 rounded bg-[#0B79D0]/30" />
-            <div className="w-20 h-2 bg-[#2A2A3A] rounded" />
+            <div className="w-20 h-2 bg-[var(--bg-border)] rounded" />
           </div>
           <div className="flex gap-1.5">
-            <div className="w-16 h-2 bg-[#2A2A3A] rounded" />
+            <div className="w-16 h-2 bg-[var(--bg-border)] rounded" />
             <div className="w-12 h-2 bg-[#0B79D0]/40 rounded" />
           </div>
         </div>
@@ -38,27 +38,27 @@ function WebMockup() {
           {["#4F46E5", "#16A34A", "#D97706", "#7C3AED"].map((c, i) => (
             <div key={i} className="p-2 rounded-lg" style={{ background: `${c}15`, border: `1px solid ${c}25` }}>
               <div className="w-full h-2 rounded mb-1" style={{ background: `${c}40` }} />
-              <div className="w-2/3 h-1.5 bg-[#2A2A3A] rounded" />
+              <div className="w-2/3 h-1.5 bg-[var(--bg-border)] rounded" />
             </div>
           ))}
         </div>
 
         {/* Table */}
-        <div className="rounded-lg border border-[#2A2A3A] overflow-hidden">
-          <div className="flex gap-2 p-1.5 bg-[#16161E]">
+        <div className="rounded-lg border border-[var(--bg-border)] overflow-hidden">
+          <div className="flex gap-2 p-1.5 bg-[var(--bg-card)]">
             {[3, 2, 2, 2].map((w, i) => (
-              <div key={i} className={`h-1.5 bg-[#35354A] rounded flex-${w === 3 ? 3 : w === 2 ? 2 : 1}`} style={{ flex: w }} />
+              <div key={i} className={`h-1.5 bg-[var(--bg-border-light)] rounded flex-${w === 3 ? 3 : w === 2 ? 2 : 1}`} style={{ flex: w }} />
             ))}
           </div>
           {[0, 1, 2].map((row) => (
-            <div key={row} className="flex gap-2 p-1.5 border-t border-[#1A1A25]">
+            <div key={row} className="flex gap-2 p-1.5 border-t border-[var(--bg-border-light)]">
               {[3, 2, 2, 2].map((w, i) => (
                 <div
                   key={i}
                   className="h-1.5 rounded"
                   style={{
                     flex: w,
-                    background: i === 0 ? "#2A2A3A" : i === 3 ? `${["#4F46E5","#16A34A","#D97706"][row]}40` : "#1E1E2A",
+                    background: i === 0 ? "var(--bg-border)" : i === 3 ? `${["#4F46E5","#16A34A","#D97706"][row]}40` : "var(--bg-card-hover)",
                   }}
                 />
               ))}
@@ -67,7 +67,7 @@ function WebMockup() {
         </div>
 
         {/* Chart placeholder */}
-        <div className="h-14 rounded-lg border border-[#2A2A3A] bg-[#0A0A0F] p-2 flex items-end gap-1">
+        <div className="h-14 rounded-lg border border-[var(--bg-border)] bg-[var(--bg-base)] p-2 flex items-end gap-1">
           {[40, 60, 45, 80, 55, 70, 90, 65].map((h, i) => (
             <div
               key={i}
@@ -90,22 +90,22 @@ function MobileMockup() {
 
   return (
     <div
-      className="w-40 rounded-[28px] overflow-hidden border-[3px] border-[#2A2A3A] bg-[#0A0A0F] shadow-2xl shadow-black/60 flex-shrink-0"
-      style={{ boxShadow: "0 0 40px rgba(11,121,208,0.2), 0 20px 60px rgba(0,0,0,0.5)" }}
+      className="w-40 rounded-[28px] overflow-hidden border-[3px] border-[var(--bg-border)] bg-[var(--bg-base)] shadow-2xl shadow-black/15 flex-shrink-0"
+      style={{ boxShadow: "0 0 40px rgba(11,121,208,0.2), 0 20px 60px rgba(0,0,0,0.18)" }}
     >
       {/* Status bar */}
       <div className="flex items-center justify-between px-3 pt-2 pb-1">
-        <span className="text-[9px] text-[#9090B0]" style={{ fontFamily: "var(--font-jetbrains)" }}>9:41</span>
+        <span className="text-[9px] text-[var(--text-secondary)]" style={{ fontFamily: "var(--font-jetbrains)" }}>9:41</span>
         <div className="flex items-center gap-1">
-          <Wifi className="w-2.5 h-2.5 text-[#9090B0]" />
-          <BatteryFull className="w-3 h-2.5 text-[#9090B0]" />
+          <Wifi className="w-2.5 h-2.5 text-[var(--text-secondary)]" />
+          <BatteryFull className="w-3 h-2.5 text-[var(--text-secondary)]" />
         </div>
       </div>
 
       {/* App header */}
-      <div className="px-3 py-2 flex items-center gap-2 border-b border-[#1A1A25]">
+      <div className="px-3 py-2 flex items-center gap-2 border-b border-[var(--bg-border-light)]">
         <div className="w-5 h-5 rounded-md bg-gradient-to-br from-[#0B79D0] to-[#2563EB]" />
-        <span className="text-[9px] font-bold text-white" style={{ fontFamily: "var(--font-poppins)" }}>
+        <span className="text-[9px] font-bold text-[var(--text-primary)]" style={{ fontFamily: "var(--font-poppins)" }}>
           iyibir WMS
         </span>
       </div>
@@ -125,8 +125,8 @@ function MobileMockup() {
       </div>
 
       {/* Barcode scanner preview */}
-      <div className="mx-2 mb-3 rounded-lg bg-[#16161E] border border-[#2A2A3A] p-2">
-        <div className="text-[7px] text-[#50506A] mb-1.5 flex items-center gap-1">
+      <div className="mx-2 mb-3 rounded-lg bg-[var(--bg-card)] border border-[var(--bg-border)] p-2">
+        <div className="text-[7px] text-[var(--text-muted)] mb-1.5 flex items-center gap-1">
           <div className="w-1.5 h-1.5 rounded-full bg-[#16A34A] animate-pulse" />
           Barkod Tarama
         </div>
@@ -137,7 +137,7 @@ function MobileMockup() {
               className="w-0.5 rounded-sm"
               style={{
                 height: `${Math.round(8 + Math.sin(i * 0.8) * 4)}px`,
-                background: i % 3 === 0 ? "#9090B0" : "#2A2A3A",
+                background: i % 3 === 0 ? "var(--text-secondary)" : "var(--bg-border)",
               }}
             />
           ))}
@@ -146,7 +146,7 @@ function MobileMockup() {
 
       {/* Home indicator */}
       <div className="flex justify-center pb-2">
-        <div className="w-10 h-1 rounded-full bg-[#2A2A3A]" />
+        <div className="w-10 h-1 rounded-full bg-[var(--bg-border)]" />
       </div>
     </div>
   );

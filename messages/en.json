@@ -128,10 +128,10 @@
   "mockups": {
     "badge": "Dual Platform",
     "title": "Full Power on Web and Mobile",
-    "subtitle": "Blazor web application for office managers, .NET MAUI mobile app for field teams.",
+    "subtitle": "Blazor web application for office managers, mobile app for field teams.",
     "web_title": "Blazor Web Application",
     "web_desc": "Advanced admin panel for planning, reporting, and management",
-    "mobile_title": "MAUI Mobile App",
+    "mobile_title": "Mobile App",
     "mobile_desc": "Android/iOS barcode scanning, offline support, fast operations",
     "features": ["Barcode & QR Scanning", "Offline Mode", "Real-time Notifications", "Dark/Light Theme"]
   },
@@ -191,9 +191,9 @@
     "badge": "Contact",
     "title": "Get In Touch",
     "subtitle": "Our technical team is always ready for your questions.",
-    "address": "Ankara, Turkey",
-    "email": "info@iyibiryazilim.com.tr",
-    "phone": "+90 312 000 00 00",
+    "address": "23 Nisan Mah. Atabulvarı, Güzell Tower Business Center K:7 D:26, Nilüfer / Bursa / Türkiye",
+    "email": "destek@iyibiryazilim.com.tr",
+    "phone": "+90 850 808 28 81",
     "website": "www.iyibiryazilim.com.tr"
   },
   "footer": {
@@ -218,7 +218,7 @@
       "terms": "Terms of Service",
       "kvkk": "KVKK Disclosure Text"
     },
-    "copyright": "© 2025 iyibir Yazılım. All rights reserved.",
+    "copyright": "© 2026 iyibir Yazılım. All rights reserved.",
     "built_with": "Developed by iyibir Yazılım with Claude Code support.",
     "kvkk_notice": "This site uses cookies. Your personal data is protected under KVKK regulations."
   },
