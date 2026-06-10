@@ -325,7 +325,7 @@
       },
       {
         "q": "Which mobile devices does the mobile app support?",
-        "a": "The iyibir WMS mobile app is built with .NET MAUI, supporting Android 8.0+ and iOS 14+ devices. Industrial barcode scanners (Zebra, Honeywell, Datalogic) running Android are also fully supported. The app works with both the device camera and dedicated barcode scanner hardware."
+        "a": "The iyibir WMS mobile app supports Android 8.0+ and iOS 14+ devices. Industrial barcode scanners (Zebra, Honeywell, Datalogic) running Android are also fully supported. The app works with both the device camera and dedicated barcode scanner hardware."
       },
       {
         "q": "How secure is the AI assistant? Does it access sensitive data?",

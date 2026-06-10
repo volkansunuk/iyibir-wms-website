@@ -326,7 +326,7 @@
       },
       {
         "q": "Mobil uygulama hangi cihazları destekler?",
-        "a": ".NET MAUI tabanlı mobil uygulamamız Android (5.0+) ve iOS (14+) cihazları destekler. Zebra, Honeywell gibi endüstriyel barkod okuyucular ve el terminalleri ile de tam uyumludur."
+        "a": "Mobil uygulamamız Android (5.0+) ve iOS (14+) cihazları destekler. Zebra, Honeywell gibi endüstriyel barkod okuyucular ve el terminalleri ile de tam uyumludur."
       },
       {
         "q": "AI asistan nasıl çalışır? Güvenli mi?",
@@ -338,7 +338,7 @@
       },
       {
         "q": "İnternet bağlantısı kesilirse ne olur?",
-        "a": "MAUI mobil uygulama offline çalışma modunu destekler. Bağlantı kesildiğinde tüm operasyonlar yerel veritabanında kaydedilir. Bağlantı yeniden sağlandığında otomatik çift yönlü senkronizasyon gerçekleşir."
+        "a": "Mobil uygulama offline çalışma modunu destekler. Bağlantı kesildiğinde tüm operasyonlar yerel veritabanında kaydedilir. Bağlantı yeniden sağlandığında otomatik çift yönlü senkronizasyon gerçekleşir."
       },
       {
         "q": "Mevcut barkod ekipmanlarımı kullanabilir miyim?",

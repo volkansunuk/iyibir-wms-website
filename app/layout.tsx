@@ -17,9 +17,33 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "iyibir WMS Platform | Akıllı Depo Yönetim Sistemi",
+  metadataBase: new URL("https://www.iyibirwms.io"),
+  title: {
+    default: "iyibir WMS Platform | Akıllı Depo Yönetim Sistemi",
+    template: "%s | iyibir WMS Platform",
+  },
   description:
-    "Logo ERP entegrasyonlu, 7 AI uzman agent destekli, mobil ve web tabanlı kurumsal depo yönetim sistemi.",
+    "Logo ERP entegrasyonlu, yapay zeka destekli, mobil ve web tabanlı kurumsal depo yönetim sistemi (WMS). Mal kabul, sevkiyat, sayım ve barkodlu operasyonlar.",
+  keywords: [
+    "depo yönetim sistemi",
+    "WMS",
+    "Logo Tiger entegrasyonu",
+    "barkod",
+    "mal kabul",
+    "sevkiyat",
+    "stok yönetimi",
+    "ambar sayımı",
+    "yapay zeka WMS",
+  ],
+  openGraph: {
+    type: "website",
+    siteName: "iyibir WMS Platform",
+    images: ["/og.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
@@ -42,6 +66,41 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen antialiased" style={{ background: "var(--bg-base)", color: "var(--text-primary)" }}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  name: "iyibir Yazılım",
+                  alternateName: "iyibir WMS",
+                  url: "https://www.iyibirwms.io",
+                  logo: "https://www.iyibirwms.io/logo.svg",
+                  email: "destek@iyibiryazilim.com.tr",
+                  telephone: "+908508082881",
+                  address: {
+                    "@type": "PostalAddress",
+                    addressLocality: "Nilüfer",
+                    addressRegion: "Bursa",
+                    addressCountry: "TR",
+                  },
+                  sameAs: [
+                    "https://www.linkedin.com/company/iyibiryazilim",
+                    "https://www.instagram.com/iyibiryazilim",
+                    "https://www.facebook.com/iyibiryazilim",
+                  ],
+                },
+                {
+                  "@type": "WebSite",
+                  name: "iyibir WMS Platform",
+                  url: "https://www.iyibirwms.io",
+                },
+              ],
+            }),
+          }}
+        />
         {children}
       </body>
     </html>
