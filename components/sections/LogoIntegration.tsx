@@ -12,10 +12,11 @@ type Slide = {
   color: string;
   accent: string;
   Icon: LucideIcon;
+  logoSrc?: string;
 };
 
 const SLIDES: Slide[] = [
-  { key: "logo",    short: "LT", name: "Logo Tiger", color: "#2563EB", accent: "#28A8F4", Icon: Zap },
+  { key: "logo",    short: "LT", name: "Logo Tiger", color: "#2563EB", accent: "#28A8F4", Icon: Zap, logoSrc: "/integrations/logo-tiger.png" },
   { key: "geliver", short: "G",  name: "Geliver.io", color: "#0891B2", accent: "#38BDF8", Icon: Truck },
   { key: "uetds",   short: "U",  name: "UETDS",      color: "#16A34A", accent: "#4ADE80", Icon: FileCheck },
 ];
@@ -59,7 +60,11 @@ export default function LogoIntegration() {
                   color: active ? s.accent : "var(--text-secondary)",
                 }}
               >
-                <s.Icon className="w-3.5 h-3.5" />
+                {s.logoSrc ? (
+                  <img src={s.logoSrc} alt={s.name} className="h-4 w-auto object-contain" />
+                ) : (
+                  <s.Icon className="w-3.5 h-3.5" />
+                )}
                 {s.name}
               </button>
             );
@@ -92,12 +97,16 @@ export default function LogoIntegration() {
                 <div className="relative flex items-center justify-center gap-6 w-full max-w-xs">
                   <div className="flex flex-col items-center gap-2">
                     <div
-                      className="w-16 h-16 rounded-2xl flex items-center justify-center"
-                      style={{ background: `${slide.color}1A`, border: `1px solid ${slide.color}40` }}
+                      className="w-16 h-16 rounded-2xl flex items-center justify-center overflow-hidden"
+                      style={{ background: slide.logoSrc ? "#FFFFFF" : `${slide.color}1A`, border: `1px solid ${slide.color}40` }}
                     >
-                      <span className="text-lg font-black" style={{ fontFamily: "var(--font-poppins)", color: slide.accent }}>
-                        {slide.short}
-                      </span>
+                      {slide.logoSrc ? (
+                        <img src={slide.logoSrc} alt={slide.name} className="w-10 h-10 object-contain" />
+                      ) : (
+                        <span className="text-lg font-black" style={{ fontFamily: "var(--font-poppins)", color: slide.accent }}>
+                          {slide.short}
+                        </span>
+                      )}
                     </div>
                     <span className="text-xs" style={{ color: "var(--text-secondary)" }}>{slide.name}</span>
                   </div>
