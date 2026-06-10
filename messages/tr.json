@@ -20,14 +20,14 @@
     "stat_customers": "Aktif Müşteri",
     "stat_uptime": "Uptime",
     "stat_operations": "Operasyon Tipi",
-    "stat_agents": "AI Uzmanı"
+    "stat_agents": "AI Yeteneği"
   },
   "stats": {
     "title": "Rakamlarla iyibir WMS",
     "customers": "Aktif Müşteri",
     "daily_ops": "Günlük İşlem",
     "op_types": "Operasyon Tipi",
-    "ai_agents": "AI Uzman Agent",
+    "ai_agents": "AI Yeteneği",
     "uptime": "Yıllık Uptime",
     "satisfaction": "Müşteri Memnuniyeti"
   },
@@ -181,7 +181,7 @@
       {
         "company": "İzmir Lojistik Ltd.",
         "sector": "3PL Lojistik",
-        "text": "Fason operasyonlarımızın takibinde çok ciddi sorunlar yaşıyorduk. iyibir WMS'in fason modülü bu sorunu tamamen çözdü. AI agent sayesinde 'bu malın son hareketi neydi?' sorusunu saniyeler içinde yanıtlayabiliyoruz.",
+        "text": "Fason operasyonlarımızın takibinde çok ciddi sorunlar yaşıyorduk. iyibir WMS'in fason modülü bu sorunu tamamen çözdü. AI asistanı sayesinde 'bu malın son hareketi neydi?' sorusunu saniyeler içinde yanıtlayabiliyoruz.",
         "author": "Ayşe Kaya",
         "role": "Operasyon Direktörü"
       },
@@ -283,7 +283,7 @@
         "features": [
           "20 kullanıcı lisansı",
           "Tüm 7 operasyon kategorisi",
-          "7 AI Uzman Agent dahil",
+          "AI asistan (tüm yetenekler) dahil",
           "MAUI mobil uygulama",
           "Logo Tiger entegrasyonu",
           "Gelişmiş raporlama & analitik",
@@ -329,8 +329,8 @@
         "a": ".NET MAUI tabanlı mobil uygulamamız Android (5.0+) ve iOS (14+) cihazları destekler. Zebra, Honeywell gibi endüstriyel barkod okuyucular ve el terminalleri ile de tam uyumludur."
       },
       {
-        "q": "AI Agent'lar nasıl çalışır? Güvenli mi?",
-        "a": "7 uzman AI agent, WMS verilerinize MCP protokolü üzerinden güvenli, salt-okunur erişimle doğal dil sorularınızı yanıtlar. Verileriniz hiçbir zaman AI modeline gönderilmez; sadece sorgu sonuçları işlenir. Tam audit log tutulur."
+        "q": "AI asistan nasıl çalışır? Güvenli mi?",
+        "a": "AI asistanınız, WMS verilerinize MCP protokolü üzerinden güvenli ve salt-okunur erişimle doğal dil sorularınızı yanıtlar. Belge tarama, stok sorgusu ve analiz gibi farklı yeteneklerle tek asistan tüm operasyonlarınıza yardımcı olur. Verileriniz hiçbir zaman AI modeline gönderilmez; yalnızca sorgu sonuçları işlenir. Tam audit log tutulur."
       },
       {
         "q": "Veri güvenliği ve KVKK uyumu nasıl sağlanıyor?",

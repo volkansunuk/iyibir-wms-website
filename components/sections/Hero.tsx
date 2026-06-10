@@ -197,7 +197,7 @@ export default function Hero() {
     { value: "50+", label: t("stat_customers") },
     { value: "99.9%", label: t("stat_uptime") },
     { value: "18+", label: t("stat_operations") },
-    { value: "7", label: t("stat_agents") },
+    { value: "6", label: t("stat_agents") },
   ];
 
   return (
@@ -297,7 +297,7 @@ export default function Hero() {
 
             {/* Left tooltips */}
             <div className="absolute z-20" style={{ right: "calc(50% + 142px)", top: "110px" }}>
-              <TooltipCard icon={Brain} color="#7C3AED" label="AI Agent" value="7 uzman aktif" sub="MCP · canlı bağlantı" delay={1.0} />
+              <TooltipCard icon={Brain} color="#0B79D0" label="AI Asistanı" value="6 yetenek aktif" sub="MCP · canlı bağlantı" delay={1.0} />
             </div>
             <div className="absolute z-20" style={{ right: "calc(50% + 142px)", top: "340px" }}>
               <TooltipCard icon={ScanLine} color="#0891B2" label="Barkod" value="LOT-A-0042" sub="Tarama başarılı" delay={1.8} />
@@ -313,7 +313,7 @@ export default function Hero() {
 
             {/* Connector lines */}
             <svg className="absolute inset-0 w-full h-full pointer-events-none z-0" style={{ overflow: "visible" }}>
-              <motion.line x1="calc(50% - 142px)" y1="138px" x2="calc(50% - 126px)" y2="200px" stroke="#7C3AED" strokeWidth="1" strokeDasharray="3 5" initial={{ opacity: 0 }} animate={{ opacity: 0.28 }} transition={{ delay: 1.3 }} />
+              <motion.line x1="calc(50% - 142px)" y1="138px" x2="calc(50% - 126px)" y2="200px" stroke="#0B79D0" strokeWidth="1" strokeDasharray="3 5" initial={{ opacity: 0 }} animate={{ opacity: 0.28 }} transition={{ delay: 1.3 }} />
               <motion.line x1="calc(50% - 142px)" y1="368px" x2="calc(50% - 126px)" y2="430px" stroke="#0891B2" strokeWidth="1" strokeDasharray="3 5" initial={{ opacity: 0 }} animate={{ opacity: 0.28 }} transition={{ delay: 2.1 }} />
               <motion.line x1="calc(50% + 142px)" y1="118px" x2="calc(50% + 126px)" y2="180px" stroke="#4F46E5" strokeWidth="1" strokeDasharray="3 5" initial={{ opacity: 0 }} animate={{ opacity: 0.28 }} transition={{ delay: 1.0 }} />
               <motion.line x1="calc(50% + 142px)" y1="348px" x2="calc(50% + 126px)" y2="410px" stroke="#16A34A" strokeWidth="1" strokeDasharray="3 5" initial={{ opacity: 0 }} animate={{ opacity: 0.28 }} transition={{ delay: 1.7 }} />

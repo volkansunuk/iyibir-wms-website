@@ -20,14 +20,14 @@
     "stat_customers": "Active Customers",
     "stat_uptime": "Uptime",
     "stat_operations": "Operation Types",
-    "stat_agents": "AI Specialists"
+    "stat_agents": "AI Capabilities"
   },
   "stats": {
     "title": "iyibir WMS By The Numbers",
     "customers": "Active Customers",
     "daily_ops": "Daily Transactions",
     "op_types": "Operation Types",
-    "ai_agents": "AI Expert Agents",
+    "ai_agents": "AI Capabilities",
     "uptime": "Annual Uptime",
     "satisfaction": "Customer Satisfaction"
   },
@@ -181,7 +181,7 @@
       {
         "company": "İzmir Lojistik Ltd.",
         "sector": "3PL Logistics",
-        "text": "We had serious problems tracking outsource operations. iyibir WMS's outsource module completely solved this. Thanks to AI agents, we can answer 'what was the last movement of this material?' in seconds.",
+        "text": "We had serious problems tracking outsource operations. iyibir WMS's outsource module completely solved this. Thanks to the AI assistant, we can answer 'what was the last movement of this material?' in seconds.",
         "author": "Ayşe Kaya",
         "role": "Operations Director"
       },
@@ -282,7 +282,7 @@
         "features": [
           "Everything in Starter",
           "Multi-warehouse management",
-          "AI agent assistants (7 specialists)",
+          "AI assistant (all capabilities)",
           "Advanced analytics & dashboards",
           "Lot/serial number tracking",
           "Priority support",
@@ -328,8 +328,8 @@
         "a": "The iyibir WMS mobile app is built with .NET MAUI, supporting Android 8.0+ and iOS 14+ devices. Industrial barcode scanners (Zebra, Honeywell, Datalogic) running Android are also fully supported. The app works with both the device camera and dedicated barcode scanner hardware."
       },
       {
-        "q": "How secure are AI agents? Do they access sensitive data?",
-        "a": "AI agents operate via the Model Context Protocol (MCP) and only access data you explicitly authorize. Each agent is limited to its own domain (e.g., the Inventory Specialist can only query stock data). Agents cannot modify data — they are read-only. All communication is encrypted and your data is never shared with third parties or used to train AI models."
+        "q": "How secure is the AI assistant? Does it access sensitive data?",
+        "a": "The AI assistant operates via the Model Context Protocol (MCP) and only accesses data you explicitly authorize. It is read-only and cannot modify data — a single assistant helps across all your operations with different capabilities (document scanning, stock queries, analysis). All communication is encrypted and your data is never shared with third parties or used to train AI models."
       },
       {
         "q": "How is data security and KVKK compliance handled?",
@@ -345,7 +345,7 @@
       },
       {
         "q": "Can custom development be done?",
-        "a": "Yes. iyibir WMS is a modular platform and can be extended with custom modules, special reports, or unique integration requirements. Our team can develop new operation types, custom AI agents, or ERP integrations tailored to your business. Contact us to get a quote for your requirements."
+        "a": "Yes. iyibir WMS is a modular platform and can be extended with custom modules, special reports, or unique integration requirements. Our team can develop new operation types, custom AI capabilities, or ERP integrations tailored to your business. Contact us to get a quote for your requirements."
       }
     ]
   },
