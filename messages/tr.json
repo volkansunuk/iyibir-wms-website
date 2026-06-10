@@ -28,8 +28,9 @@
     "daily_ops": "Günlük İşlem",
     "op_types": "Operasyon Tipi",
     "ai_agents": "AI Yeteneği",
-    "uptime": "Yıllık Uptime",
-    "satisfaction": "Müşteri Memnuniyeti"
+    "uptime": "Sistem Uptime",
+    "satisfaction": "Müşteri Memnuniyeti",
+    "cargo": "Kargo Entegrasyonu"
   },
   "features": {
     "badge": "Kapsamlı Operasyonlar",

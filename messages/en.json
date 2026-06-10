@@ -28,8 +28,9 @@
     "daily_ops": "Daily Transactions",
     "op_types": "Operation Types",
     "ai_agents": "AI Capabilities",
-    "uptime": "Annual Uptime",
-    "satisfaction": "Customer Satisfaction"
+    "uptime": "System Uptime",
+    "satisfaction": "Customer Satisfaction",
+    "cargo": "Cargo Integrations"
   },
   "features": {
     "badge": "Comprehensive Operations",
