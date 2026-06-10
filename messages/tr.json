@@ -247,7 +247,8 @@
     },
     "copyright": "© 2026 iyibir Yazılım. Tüm hakları saklıdır.",
     "built_with": "iyibir Yazılım tarafından Claude Code desteği ile geliştirilmiştir.",
-    "kvkk_notice": "Bu site çerez kullanmaktadır. Kişisel verileriniz KVKK kapsamında korunmaktadır."
+    "kvkk_notice": "Bu site çerez kullanmaktadır. Kişisel verileriniz KVKK kapsamında korunmaktadır.",
+    "kvkk_accept": "Kabul Et"
   },
   "pricing": {
     "badge": "Fiyatlandırma",

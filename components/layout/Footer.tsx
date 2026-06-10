@@ -106,10 +106,10 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div style={{ borderTop: "1px solid var(--bg-border)" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p className="text-xs" style={{ color: "var(--text-muted)" }}>{t("copyright")}</p>
-          <p className="text-xs text-center" style={{ color: "var(--text-muted)" }}>{t("kvkk_notice")}</p>
-          <p className="text-xs flex items-center gap-1" style={{ color: "var(--text-muted)" }}>{t("built_with")}</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+          <p className="text-xs text-center" style={{ color: "var(--text-muted)" }}>
+            {t("copyright")} {t("built_with")}
+          </p>
         </div>
       </div>
     </footer>

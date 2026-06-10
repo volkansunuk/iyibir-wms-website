@@ -247,7 +247,8 @@
     },
     "copyright": "© 2026 iyibir Yazılım. All rights reserved.",
     "built_with": "Developed by iyibir Yazılım with Claude Code support.",
-    "kvkk_notice": "This site uses cookies. Your personal data is protected under KVKK regulations."
+    "kvkk_notice": "This site uses cookies. Your personal data is protected under KVKK regulations.",
+    "kvkk_accept": "Accept"
   },
   "pricing": {
     "badge": "Pricing",
