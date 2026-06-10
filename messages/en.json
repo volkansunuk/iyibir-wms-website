@@ -105,6 +105,32 @@
     ],
     "note": "Secure read-only connection via Logo Tiger GoDb"
   },
+  "geliver": {
+    "badge": "Shipping Integration",
+    "title": "One-Click Shipping with Geliver.io",
+    "subtitle": "Manage dozens of carriers through a single API. When a shipment is completed in WMS, the shipping label and tracking number are generated automatically.",
+    "features": [
+      "Multiple carriers from one panel",
+      "Automatic shipping label and barcode",
+      "Tracking number returned to WMS",
+      "Create shipment instantly on dispatch",
+      "Real-time shipment status updates"
+    ],
+    "note": "Shipping flow fully synced with dispatch operations"
+  },
+  "uetds": {
+    "badge": "Legal Reporting",
+    "title": "Automatic UETDS Shipment Reporting",
+    "subtitle": "Send trip and shipment notifications to Türkiye's Ministry of Transport UETDS system automatically from WMS. No manual entry, no compliance risk.",
+    "features": [
+      "Automatic trip and shipment reporting",
+      "Shipment data transferred to UETDS",
+      "Legal compliance, no manual entry",
+      "Notification status visible in WMS",
+      "Instant alerts on failed notifications"
+    ],
+    "note": "Legally compliant with the UETDS system"
+  },
   "marketplace": {
     "badge": "E-Commerce",
     "title": "Manage Marketplace Orders with WMS",

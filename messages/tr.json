@@ -105,6 +105,32 @@
     ],
     "note": "Logo Tiger GoDb üzerinden salt-okunur güvenli bağlantı"
   },
+  "geliver": {
+    "badge": "Kargo Entegrasyonu",
+    "title": "Geliver.io ile Tek Tıkla Kargo",
+    "subtitle": "Onlarca kargo firmasını tek API üzerinden yönetin. WMS'te sevkiyat tamamlandığında kargo etiketi ve takip numarası otomatik oluşur.",
+    "features": [
+      "Tek panelden çoklu kargo firması",
+      "Otomatik kargo etiketi ve barkod",
+      "Gönderi takip numarası WMS'e döner",
+      "Sevkiyat anında kargo oluşturma",
+      "Anlık kargo durumu güncellemesi"
+    ],
+    "note": "Sevkiyat operasyonuyla tam senkron kargo akışı"
+  },
+  "uetds": {
+    "badge": "Yasal Bildirim",
+    "title": "UETDS Sevkiyat Bildirimi Otomatik",
+    "subtitle": "T.C. Ulaştırma Bakanlığı UETDS sistemine sefer ve sevkiyat bildirimlerini WMS üzerinden otomatik gönderin. Manuel giriş ve yasal risk ortadan kalkar.",
+    "features": [
+      "Otomatik sefer ve sevkiyat bildirimi",
+      "Sevkiyat verisi UETDS'e aktarılır",
+      "Yasal uyumluluk, manuel giriş yok",
+      "Bildirim durumu WMS'te görünür",
+      "Hatalı bildirimde anlık uyarı"
+    ],
+    "note": "T.C. Ulaştırma Bakanlığı UETDS ile yasal uyumlu"
+  },
   "marketplace": {
     "badge": "E-Ticaret",
     "title": "Pazaryeri Siparişlerini WMS ile Yönetin",
