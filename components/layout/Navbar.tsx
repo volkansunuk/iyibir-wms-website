@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
-import { Menu, X, Warehouse, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { useTheme } from "@/components/theme/ThemeProvider";
 
 export default function Navbar() {
@@ -45,12 +45,10 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex items-center gap-2.5 group">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#0B79D0] to-[#2563EB] flex items-center justify-center shadow-lg group-hover:shadow-sky-500/40 transition-shadow">
-            <Warehouse className="w-4 h-4 text-white" />
-          </div>
+          <img src="/logo.svg" alt="iyibir WMS" width={32} height={32} className="w-8 h-8 rounded-lg shadow-lg group-hover:shadow-sky-500/40 transition-shadow" />
           <span className="text-lg font-bold tracking-tight" style={{ fontFamily: "var(--font-poppins)" }}>
-            <span style={{ color: "var(--text-primary)" }}>iyibir</span>
-            <span className="text-[#0B79D0]">.WMS</span>
+            <span style={{ color: "var(--text-primary)" }}>iyibir</span>{" "}
+            <span className="text-[#0B79D0]">WMS</span>
           </span>
         </Link>
 

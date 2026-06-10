@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
-import { Warehouse, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -50,12 +50,10 @@ export default function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
             <Link href={`/${locale}`} className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#0B79D0] to-[#2563EB] flex items-center justify-center">
-                <Warehouse className="w-4 h-4 text-white" />
-              </div>
+              <img src="/logo.svg" alt="iyibir WMS" width={32} height={32} className="w-8 h-8 rounded-lg" />
               <span className="text-base font-bold" style={{ fontFamily: "var(--font-poppins)" }}>
-                <span style={{ color: "var(--text-primary)" }}>iyibir</span>
-                <span className="text-[#0B79D0]">.WMS</span>
+                <span style={{ color: "var(--text-primary)" }}>iyibir</span>{" "}
+                <span className="text-[#0B79D0]">WMS</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed mb-4" style={{ color: "var(--text-muted)" }}>
