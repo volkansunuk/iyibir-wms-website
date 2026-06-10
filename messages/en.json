@@ -134,16 +134,16 @@
   },
   "marketplace": {
     "badge": "E-Commerce",
-    "title": "Manage Marketplace Orders with WMS",
-    "subtitle": "Manage orders from Trendyol, Hepsiburada, and other marketplaces directly in WMS. Automatic order import, barcode-guided picking, and cargo integration.",
+    "title": "Fulfill Marketplace Orders with WMS",
+    "subtitle": "Handle picking, shipping, and cargo for orders from Trendyol, Hepsiburada, and other marketplaces end-to-end in WMS. You manage order fulfillment and logistics — not the marketplaces themselves.",
     "coming_soon": "Coming Soon",
     "features": [
-      { "name": "Automatic Order Import", "desc": "Marketplace orders are automatically transferred to WMS — no manual entry needed." },
+      { "name": "Orders Flow Into WMS", "desc": "Marketplace orders flow into WMS for fulfillment — no manual entry needed." },
       { "name": "Barcode-Guided Picking", "desc": "Step-by-step guided order picking process on the mobile app." },
       { "name": "Cargo Integration", "desc": "Cargo barcodes are automatically generated, shipping labels print ready." },
       { "name": "Return Management", "desc": "Marketplace returns are automatically routed to WMS goods receipt." },
-      { "name": "Stock Synchronization", "desc": "Real-time WMS stock levels automatically reflect across all sales channels." },
-      { "name": "Multi-Platform", "desc": "Manage Trendyol, Hepsiburada, n11, Amazon TR from a single screen." }
+      { "name": "Shipment Tracking", "desc": "Track the shipping and cargo status of prepared orders in real time within WMS." },
+      { "name": "Multiple Marketplaces", "desc": "Orders from different marketplaces are consolidated into a single fulfillment flow." }
     ],
     "stat_1": "500+",
     "stat_1_label": "Orders / Day",
@@ -218,7 +218,7 @@
     "badge": "Contact",
     "title": "Get In Touch",
     "subtitle": "Our technical team is always ready for your questions.",
-    "address": "23 Nisan Mah. Atabulvarı, Güzell Tower Business Center K:7 D:26, Nilüfer / Bursa / Türkiye",
+    "address": "Nilüfer, Bursa",
     "email": "destek@iyibiryazilim.com.tr",
     "phone": "+90 850 808 28 81",
     "website": "www.iyibiryazilim.com.tr"

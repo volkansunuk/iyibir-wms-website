@@ -134,16 +134,16 @@
   },
   "marketplace": {
     "badge": "E-Ticaret",
-    "title": "Pazaryeri Siparişlerini WMS ile Yönetin",
-    "subtitle": "Trendyol, Hepsiburada ve diğer pazaryerlerinden gelen siparişleri doğrudan WMS'de yönetin. Otomatik sipariş çekme, barkodlu toplama, kargo entegrasyonu.",
+    "title": "Pazaryeri Siparişlerini Sorunsuz Sevk Edin",
+    "subtitle": "Trendyol, Hepsiburada ve diğer pazaryerlerinden gelen siparişlerin toplama, sevkiyat ve kargo süreçlerini WMS ile uçtan uca yönetin. Pazaryerlerini değil; sipariş karşılama ve lojistiği yönetirsiniz.",
     "coming_soon": "Yakında",
     "features": [
-      { "name": "Otomatik Sipariş Çekme", "desc": "Pazaryeri siparişleri WMS'e otomatik aktarılır, manuel giriş gerekmez." },
+      { "name": "Sipariş WMS'e Düşer", "desc": "Pazaryeri siparişleri sevkiyat için WMS'e otomatik aktarılır, manuel giriş gerekmez." },
       { "name": "Barkodlu Toplama", "desc": "Mobil uygulamada sipariş bazlı adım adım yönlendirmeli toplama süreci." },
       { "name": "Kargo Entegrasyonu", "desc": "Kargo barkodu otomatik oluşturulur, gönderi etiketi hazır çıkar." },
       { "name": "İade Yönetimi", "desc": "Pazaryeri iadeleri WMS mal kabulüne otomatik yönlendirilir." },
-      { "name": "Stok Senkronizasyonu", "desc": "WMS'deki gerçek zamanlı stok tüm satış kanallarına otomatik yansır." },
-      { "name": "Çoklu Platform", "desc": "Trendyol, Hepsiburada, n11, Amazon TR'yi tek ekrandan yönetin." }
+      { "name": "Sevkiyat Takibi", "desc": "Hazırlanan siparişlerin sevkiyat ve kargo durumu WMS üzerinden anlık izlenir." },
+      { "name": "Çoklu Pazaryeri", "desc": "Farklı pazaryerlerinden gelen siparişler tek sevkiyat akışında toplanır." }
     ],
     "stat_1": "500+",
     "stat_1_label": "Sipariş / Gün",
@@ -218,7 +218,7 @@
     "badge": "İletişim",
     "title": "Bizimle İletişime Geçin",
     "subtitle": "Sorularınız için teknik ekibimiz her zaman hazır.",
-    "address": "23 Nisan Mah. Atabulvarı, Güzell Tower İş Merkezi K:7 D:26, Nilüfer / Bursa",
+    "address": "Nilüfer, Bursa",
     "email": "destek@iyibiryazilim.com.tr",
     "phone": "+90 850 808 28 81",
     "website": "www.iyibiryazilim.com.tr"
