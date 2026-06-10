@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import { ArrowRight, BookOpen, Sparkles, Wifi, BatteryFull, Package, Brain, Truck, ScanLine, type LucideIcon } from "lucide-react";
+import { ArrowRight, Sparkles, Wifi, BatteryFull, Package, Brain, Truck, ScanLine, type LucideIcon } from "lucide-react";
 
 const OP_COLORS = ["#4F46E5", "#2563EB", "#16A34A", "#D97706", "#7C3AED", "#0891B2", "#E11D48"];
 
@@ -250,15 +250,6 @@ export default function Hero() {
                 className="group flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-white bg-[#0B79D0] hover:bg-[#28A8F4] rounded-full transition-all duration-200 hover:shadow-xl hover:shadow-sky-500/30 active:scale-95">
                 {t("cta_demo")}
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </a>
-              <a href="https://iyibir-wms-docs.vercel.app" target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-2 px-7 py-3.5 text-base font-semibold rounded-full transition-all duration-200"
-                style={{ color: "var(--text-secondary)", border: "1px solid var(--bg-border)" }}
-                onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; e.currentTarget.style.borderColor = "#0B79D0"; }}
-                onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-secondary)"; e.currentTarget.style.borderColor = "var(--bg-border)"; }}
-              >
-                <BookOpen className="w-4 h-4" />
-                {t("cta_docs")}
               </a>
             </motion.div>
 
