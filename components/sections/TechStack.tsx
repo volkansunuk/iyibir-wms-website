@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const TECH = [
-  { name: ".NET 10", color: "#512BD4", desc: "Backend Framework" },
+  { name: ".NET 10", color: "#0B79D0", desc: "Backend Framework" },
   { name: "Blazor", color: "#2563EB", desc: "Web Client" },
   { name: ".NET MAUI", color: "#7C3AED", desc: "Mobile Client" },
   { name: "SQL Server", color: "#E11D48", desc: "Database" },
@@ -13,7 +13,7 @@ const TECH = [
   { name: "OpenAI", color: "#D97706", desc: "AI Models" },
   { name: "JWT", color: "#4F46E5", desc: "Auth" },
   { name: "Dapper", color: "#0891B2", desc: "Data Access" },
-  { name: "YARP", color: "#512BD4", desc: "API Gateway" },
+  { name: "YARP", color: "#0B79D0", desc: "API Gateway" },
 ];
 
 export default function TechStack() {

@@ -24,12 +24,12 @@ function WebMockup() {
         {/* Top nav */}
         <div className="flex items-center justify-between p-2 bg-[#16161E] rounded-lg">
           <div className="flex items-center gap-2">
-            <div className="w-5 h-5 rounded bg-[#512BD4]/30" />
+            <div className="w-5 h-5 rounded bg-[#0B79D0]/30" />
             <div className="w-20 h-2 bg-[#2A2A3A] rounded" />
           </div>
           <div className="flex gap-1.5">
             <div className="w-16 h-2 bg-[#2A2A3A] rounded" />
-            <div className="w-12 h-2 bg-[#512BD4]/40 rounded" />
+            <div className="w-12 h-2 bg-[#0B79D0]/40 rounded" />
           </div>
         </div>
 
@@ -74,7 +74,7 @@ function WebMockup() {
               className="flex-1 rounded-t"
               style={{
                 height: `${h}%`,
-                background: `${["#4F46E5","#2563EB","#7C3AED","#0891B2","#16A34A","#D97706","#E11D48","#512BD4"][i]}60`,
+                background: `${["#4F46E5","#2563EB","#7C3AED","#0891B2","#16A34A","#D97706","#E11D48","#0B79D0"][i]}60`,
               }}
             />
           ))}
@@ -91,7 +91,7 @@ function MobileMockup() {
   return (
     <div
       className="w-40 rounded-[28px] overflow-hidden border-[3px] border-[#2A2A3A] bg-[#0A0A0F] shadow-2xl shadow-black/60 flex-shrink-0"
-      style={{ boxShadow: "0 0 40px rgba(81,43,212,0.2), 0 20px 60px rgba(0,0,0,0.5)" }}
+      style={{ boxShadow: "0 0 40px rgba(11,121,208,0.2), 0 20px 60px rgba(0,0,0,0.5)" }}
     >
       {/* Status bar */}
       <div className="flex items-center justify-between px-3 pt-2 pb-1">
@@ -104,7 +104,7 @@ function MobileMockup() {
 
       {/* App header */}
       <div className="px-3 py-2 flex items-center gap-2 border-b border-[#1A1A25]">
-        <div className="w-5 h-5 rounded-md bg-gradient-to-br from-[#512BD4] to-[#2563EB]" />
+        <div className="w-5 h-5 rounded-md bg-gradient-to-br from-[#0B79D0] to-[#2563EB]" />
         <span className="text-[9px] font-bold text-white" style={{ fontFamily: "var(--font-poppins)" }}>
           iyibir WMS
         </span>
@@ -199,7 +199,7 @@ export default function DeviceMockups() {
             viewport={{ once: true }}
           >
             <div className="flex items-center gap-2 mb-4">
-              <Monitor className="w-5 h-5 text-[#60A5FA]" />
+              <Monitor className="w-5 h-5 text-[#28A8F4]" />
               <div>
                 <div className="text-sm font-semibold" style={{ fontFamily: "var(--font-poppins)", color: "var(--text-primary)" }}>
                   {t("web_title")}
@@ -222,7 +222,7 @@ export default function DeviceMockups() {
 
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-4">
-                <Smartphone className="w-5 h-5 text-[#C084FC]" />
+                <Smartphone className="w-5 h-5 text-[#38BDF8]" />
                 <div>
                   <div className="text-sm font-semibold" style={{ fontFamily: "var(--font-poppins)", color: "var(--text-primary)" }}>
                     {t("mobile_title")}
@@ -241,7 +241,7 @@ export default function DeviceMockups() {
                     className="flex items-center gap-2.5 text-sm"
                     style={{ color: "var(--text-secondary)" }}
                   >
-                    <Check className="w-4 h-4 text-[#C084FC] flex-shrink-0" />
+                    <Check className="w-4 h-4 text-[#38BDF8] flex-shrink-0" />
                     {f}
                   </motion.li>
                 ))}

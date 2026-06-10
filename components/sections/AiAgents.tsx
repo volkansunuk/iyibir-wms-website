@@ -46,7 +46,7 @@ export default function AiAgents() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#C084FC] uppercase tracking-wider"
+            className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#38BDF8] uppercase tracking-wider"
             style={{ border: "1px solid rgba(124,58,237,0.25)", background: "rgba(124,58,237,0.08)" }}
           >
             <Cpu className="w-3 h-3" />
@@ -141,8 +141,8 @@ export default function AiAgents() {
               className="p-4 rounded-xl flex items-center gap-3"
               style={{ border: "1px solid rgba(124,58,237,0.25)", background: "rgba(124,58,237,0.08)" }}
             >
-              <Cpu className="w-5 h-5 text-[#C084FC] flex-shrink-0" />
-              <p className="text-sm text-[#C084FC]">{t("protocol")}</p>
+              <Cpu className="w-5 h-5 text-[#38BDF8] flex-shrink-0" />
+              <p className="text-sm text-[#38BDF8]">{t("protocol")}</p>
             </div>
 
             <div
@@ -173,7 +173,7 @@ export default function AiAgents() {
                   className="flex justify-end"
                 >
                   <div className="flex items-end gap-2 max-w-[85%]">
-                    <div className="bg-[#512BD4] text-white text-xs p-3 rounded-2xl rounded-br-sm leading-relaxed">
+                    <div className="bg-[#0B79D0] text-white text-xs p-3 rounded-2xl rounded-br-sm leading-relaxed">
                       {t("chat_example.user")}
                     </div>
                     <div
@@ -197,7 +197,7 @@ export default function AiAgents() {
                       className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0"
                       style={{ background: "rgba(124,58,237,0.2)", border: "1px solid rgba(124,58,237,0.3)" }}
                     >
-                      <Bot className="w-3.5 h-3.5 text-[#C084FC]" />
+                      <Bot className="w-3.5 h-3.5 text-[#38BDF8]" />
                     </div>
                     <div
                       className="text-xs p-3 rounded-2xl rounded-bl-sm leading-relaxed whitespace-pre-line"
@@ -217,7 +217,7 @@ export default function AiAgents() {
                     className="w-6 h-6 rounded-full flex items-center justify-center"
                     style={{ background: "rgba(124,58,237,0.2)" }}
                   >
-                    <Bot className="w-3 h-3 text-[#C084FC]" />
+                    <Bot className="w-3 h-3 text-[#38BDF8]" />
                   </div>
                   <div className="flex gap-1">
                     {[0, 0.2, 0.4].map((d) => (

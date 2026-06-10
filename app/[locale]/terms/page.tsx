@@ -98,7 +98,7 @@ export default async function TermsPage({
                     iyibir WMS, müşteri verilerinin güvenliğini ön planda tutar. Veriler müşterinin kendi SQL Server
                     veritabanında tutulur; iyibir Yazılım, destek dışı durumlarda müşteri verilerine erişmez.
                     Kişisel verilerin işlenmesine ilişkin detaylar için{" "}
-                    <a href="/tr/privacy" className="text-[#A78BFA] hover:underline">
+                    <a href="/tr/privacy" className="text-[#38BDF8] hover:underline">
                       Gizlilik Politikası
                     </a>
                     &apos;nı inceleyin.
@@ -154,7 +154,7 @@ export default async function TermsPage({
                   <h2 className="text-lg font-semibold text-white mb-3">12. İletişim</h2>
                   <p>
                     Sorularınız için:{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
+                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
                   </p>
@@ -229,7 +229,7 @@ export default async function TermsPage({
                     iyibir WMS prioritizes the security of customer data. Data is kept in the customer&apos;s own SQL
                     Server database; iyibir Yazılım does not access customer data except for support purposes. For
                     details on the processing of personal data, please review our{" "}
-                    <a href="/en/privacy" className="text-[#A78BFA] hover:underline">
+                    <a href="/en/privacy" className="text-[#38BDF8] hover:underline">
                       Privacy Policy
                     </a>
                     .
@@ -285,7 +285,7 @@ export default async function TermsPage({
                   <h2 className="text-lg font-semibold text-white mb-3">12. Contact</h2>
                   <p>
                     For questions:{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
+                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
                   </p>

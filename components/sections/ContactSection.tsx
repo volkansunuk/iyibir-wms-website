@@ -8,7 +8,7 @@ export default function ContactSection() {
   const t = useTranslations("contact");
 
   const items = [
-    { Icon: MapPin, value: t("address"), color: "#512BD4", href: null },
+    { Icon: MapPin, value: t("address"), color: "#0B79D0", href: null },
     { Icon: Mail, value: t("email"), color: "#2563EB", href: `mailto:${t("email")}` },
     { Icon: Phone, value: t("phone"), color: "#16A34A", href: `tel:${t("phone")}` },
     { Icon: Globe, value: t("website"), color: "#0891B2", href: "https://www.iyibiryazilim.com.tr", external: true },

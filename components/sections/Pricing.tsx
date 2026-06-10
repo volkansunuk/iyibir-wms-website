@@ -23,14 +23,14 @@ export default function Pricing() {
       <div
         className="absolute inset-0 pointer-events-none opacity-40"
         style={{
-          backgroundImage: "linear-gradient(rgba(81,43,212,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(81,43,212,0.03) 1px, transparent 1px)",
+          backgroundImage: "linear-gradient(rgba(11,121,208,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(11,121,208,0.03) 1px, transparent 1px)",
           backgroundSize: "60px 60px",
         }}
       />
       <div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] pointer-events-none"
         style={{
-          background: "radial-gradient(ellipse at center, rgba(81,43,212,0.07) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse at center, rgba(11,121,208,0.07) 0%, transparent 70%)",
           filter: "blur(40px)",
         }}
       />
@@ -43,7 +43,7 @@ export default function Pricing() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
-            style={{ border: "1px solid rgba(81,43,212,0.25)", background: "rgba(81,43,212,0.07)" }}
+            style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.07)" }}
           >
             <Zap className="w-3 h-3" />
             {t("badge")}
@@ -83,8 +83,8 @@ export default function Pricing() {
               style={
                 plan.highlighted
                   ? {
-                      background: "linear-gradient(135deg, rgba(81,43,212,0.12) 0%, rgba(37,99,235,0.08) 100%)",
-                      border: "2px solid rgba(81,43,212,0.5)",
+                      background: "linear-gradient(135deg, rgba(11,121,208,0.12) 0%, rgba(37,99,235,0.08) 100%)",
+                      border: "2px solid rgba(11,121,208,0.5)",
                     }
                   : {
                       background: "var(--bg-card)",
@@ -95,7 +95,7 @@ export default function Pricing() {
               {/* Popular badge */}
               {plan.highlighted && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="px-4 py-1 rounded-full text-xs font-semibold text-white bg-[#512BD4] shadow-lg shadow-purple-500/30">
+                  <span className="px-4 py-1 rounded-full text-xs font-semibold text-white bg-[#0B79D0] shadow-lg shadow-sky-500/30">
                     {t("most_popular")}
                   </span>
                 </div>
@@ -151,8 +151,8 @@ export default function Pricing() {
                     <div
                       className="w-4 h-4 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
                       style={{
-                        background: plan.highlighted ? "rgba(81,43,212,0.2)" : "rgba(81,43,212,0.1)",
-                        border: "1px solid rgba(81,43,212,0.3)",
+                        background: plan.highlighted ? "rgba(11,121,208,0.2)" : "rgba(11,121,208,0.1)",
+                        border: "1px solid rgba(11,121,208,0.3)",
                       }}
                     >
                       <Check className="w-2.5 h-2.5 text-[#7B6CF0]" />
@@ -168,21 +168,21 @@ export default function Pricing() {
                 className="group flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-all duration-200"
                 style={
                   plan.highlighted
-                    ? { background: "#512BD4", color: "white" }
+                    ? { background: "#0B79D0", color: "white" }
                     : { background: "var(--bg-base)", border: "1px solid var(--bg-border)", color: "var(--text-secondary)" }
                 }
                 onMouseEnter={(e) => {
                   if (plan.highlighted) {
-                    e.currentTarget.style.background = "#6B46E0";
-                    (e.currentTarget.style as CSSStyleDeclaration).boxShadow = "0 8px 24px rgba(81,43,212,0.35)";
+                    e.currentTarget.style.background = "#28A8F4";
+                    (e.currentTarget.style as CSSStyleDeclaration).boxShadow = "0 8px 24px rgba(11,121,208,0.35)";
                   } else {
-                    e.currentTarget.style.borderColor = "#512BD4";
+                    e.currentTarget.style.borderColor = "#0B79D0";
                     e.currentTarget.style.color = "var(--text-primary)";
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (plan.highlighted) {
-                    e.currentTarget.style.background = "#512BD4";
+                    e.currentTarget.style.background = "#0B79D0";
                     (e.currentTarget.style as CSSStyleDeclaration).boxShadow = "";
                   } else {
                     e.currentTarget.style.borderColor = "var(--bg-border)";

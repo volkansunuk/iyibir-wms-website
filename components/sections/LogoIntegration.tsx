@@ -39,7 +39,7 @@ export default function LogoIntegration() {
                     className="w-16 h-16 rounded-2xl flex items-center justify-center"
                     style={{ background: "rgba(37,99,235,0.1)", border: "1px solid rgba(37,99,235,0.25)" }}
                   >
-                    <span className="text-xl font-black text-[#60A5FA]" style={{ fontFamily: "var(--font-poppins)" }}>LT</span>
+                    <span className="text-xl font-black text-[#28A8F4]" style={{ fontFamily: "var(--font-poppins)" }}>LT</span>
                   </div>
                   <span className="text-xs" style={{ color: "var(--text-secondary)" }}>Logo Tiger</span>
                 </div>
@@ -64,9 +64,9 @@ export default function LogoIntegration() {
                 <div className="flex flex-col items-center gap-2">
                   <div
                     className="w-16 h-16 rounded-2xl flex items-center justify-center"
-                    style={{ background: "rgba(81,43,212,0.1)", border: "1px solid rgba(81,43,212,0.25)" }}
+                    style={{ background: "rgba(11,121,208,0.1)", border: "1px solid rgba(11,121,208,0.25)" }}
                   >
-                    <span className="text-sm font-black text-[#A78BFA] text-center leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>WMS</span>
+                    <span className="text-sm font-black text-[#38BDF8] text-center leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>WMS</span>
                   </div>
                   <span className="text-xs" style={{ color: "var(--text-secondary)" }}>iyibir WMS</span>
                 </div>
@@ -87,7 +87,7 @@ export default function LogoIntegration() {
                   { val: "R/O", label: "Read-Only" },
                 ].map(({ val, label }) => (
                   <div key={label} className="text-center">
-                    <div className="text-2xl font-bold text-[#60A5FA] tabular-nums" style={{ fontFamily: "var(--font-jetbrains)" }}>
+                    <div className="text-2xl font-bold text-[#28A8F4] tabular-nums" style={{ fontFamily: "var(--font-jetbrains)" }}>
                       {val}
                     </div>
                     <div className="text-xs" style={{ color: "var(--text-muted)" }}>{label}</div>
@@ -137,7 +137,7 @@ export default function LogoIntegration() {
                       className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
                       style={{ background: "rgba(37,99,235,0.15)", border: "1px solid rgba(37,99,235,0.3)" }}
                     >
-                      <Check className="w-3 h-3 text-[#60A5FA]" />
+                      <Check className="w-3 h-3 text-[#28A8F4]" />
                     </div>
                     <span className="text-sm" style={{ color: "var(--text-secondary)" }}>{feature}</span>
                   </motion.li>

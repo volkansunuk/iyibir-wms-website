@@ -30,7 +30,7 @@ function WarehouseGrid() {
       <svg className="absolute inset-0 w-full h-full opacity-[0.06]" preserveAspectRatio="xMidYMid slice">
         <defs>
           <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#512BD4" strokeWidth="1" />
+            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#0B79D0" strokeWidth="1" />
           </pattern>
           <radialGradient id="grid-fade" cx="50%" cy="40%" r="60%">
             <stop offset="0%" stopColor="white" stopOpacity="1" />
@@ -104,7 +104,7 @@ function HeroPhone() {
         overflow: "hidden",
         background: "var(--bg-card)",
         border: "2.5px solid var(--bg-border)",
-        boxShadow: "0 0 0 1px rgba(255,255,255,0.05) inset, 0 0 120px rgba(81,43,212,0.35), 0 0 60px rgba(37,99,235,0.15), 0 40px 100px rgba(0,0,0,0.3)",
+        boxShadow: "0 0 0 1px rgba(255,255,255,0.05) inset, 0 0 120px rgba(11,121,208,0.35), 0 0 60px rgba(37,99,235,0.15), 0 40px 100px rgba(0,0,0,0.3)",
         transform: "perspective(1200px) rotateY(-5deg) rotateX(1deg)",
       }}
     >
@@ -121,7 +121,7 @@ function HeroPhone() {
       {/* App header */}
       <div className="px-4 py-3 flex items-center justify-between" style={{ background: "var(--bg-surface)", borderBottom: "1px solid var(--bg-border)" }}>
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-xl bg-gradient-to-br from-[#512BD4] to-[#2563EB] flex items-center justify-center" style={{ boxShadow: "0 4px 12px rgba(81,43,212,0.5)" }}>
+          <div className="w-7 h-7 rounded-xl bg-gradient-to-br from-[#0B79D0] to-[#2563EB] flex items-center justify-center" style={{ boxShadow: "0 4px 12px rgba(11,121,208,0.5)" }}>
             <span className="text-[9px] font-black text-white">W</span>
           </div>
           <span className="text-[13px] font-bold" style={{ color: "var(--text-primary)", fontFamily: "var(--font-poppins)" }}>iyibir WMS</span>
@@ -166,7 +166,7 @@ function HeroPhone() {
 
       {/* Bottom nav */}
       <div className="px-3 pt-2 pb-2 flex items-center justify-around" style={{ background: "var(--bg-surface)", borderTop: "1px solid var(--bg-border)" }}>
-        {["#512BD4", "#6B7280", "#6B7280", "#6B7280"].map((c, i) => (
+        {["#0B79D0", "#6B7280", "#6B7280", "#6B7280"].map((c, i) => (
           <div key={i} className="flex flex-col items-center gap-1">
             <div className="w-5 h-5 rounded-lg" style={{ background: i === 0 ? `${c}25` : "var(--bg-border)" }}>
               <div className="w-full h-full rounded-lg flex items-center justify-center">
@@ -205,7 +205,7 @@ export default function Hero() {
       <WarehouseGrid />
 
       <div className="absolute top-1/3 right-1/4 w-[800px] h-[600px] rounded-full opacity-[0.08] pointer-events-none"
-        style={{ background: "radial-gradient(ellipse, #512BD4 0%, #2563EB 45%, transparent 70%)", filter: "blur(90px)" }} />
+        style={{ background: "radial-gradient(ellipse, #0B79D0 0%, #2563EB 45%, transparent 70%)", filter: "blur(90px)" }} />
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full opacity-[0.05] pointer-events-none"
         style={{ background: "radial-gradient(circle, #0891B2 0%, transparent 70%)", filter: "blur(70px)" }} />
 
@@ -217,7 +217,7 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
               className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 rounded-full text-sm text-[#7B6CF0]"
-              style={{ border: "1px solid rgba(81,43,212,0.35)", background: "rgba(81,43,212,0.08)" }}
+              style={{ border: "1px solid rgba(11,121,208,0.35)", background: "rgba(11,121,208,0.08)" }}
             >
               <Sparkles className="w-3.5 h-3.5" />
               <span>{t("badge")}</span>
@@ -229,7 +229,7 @@ export default function Hero() {
             >
               <span className="block text-5xl sm:text-6xl lg:text-5xl xl:text-[3.75rem] font-extrabold" style={{ color: "var(--text-primary)" }}>{t("title_1")}</span>
               <span className="block text-5xl sm:text-6xl lg:text-5xl xl:text-[3.75rem] font-extrabold"
-                style={{ background: "linear-gradient(135deg, #A78BFA 0%, #60A5FA 60%, #818CF8 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
+                style={{ background: "linear-gradient(135deg, #38BDF8 0%, #28A8F4 60%, #0B79D0 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                 {t("title_2")}
               </span>
               <span className="block text-5xl sm:text-6xl lg:text-5xl xl:text-[3.75rem] font-extrabold" style={{ color: "var(--text-primary)" }}>{t("title_3")}</span>
@@ -247,14 +247,14 @@ export default function Hero() {
               className="flex flex-col sm:flex-row items-start gap-4 mb-12"
             >
               <a href={`/${locale}/demo`}
-                className="group flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-white bg-[#512BD4] hover:bg-[#6B46E0] rounded-full transition-all duration-200 hover:shadow-xl hover:shadow-purple-500/30 active:scale-95">
+                className="group flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-white bg-[#0B79D0] hover:bg-[#28A8F4] rounded-full transition-all duration-200 hover:shadow-xl hover:shadow-sky-500/30 active:scale-95">
                 {t("cta_demo")}
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
               <a href="https://iyibir-wms-docs.vercel.app" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 px-7 py-3.5 text-base font-semibold rounded-full transition-all duration-200"
                 style={{ color: "var(--text-secondary)", border: "1px solid var(--bg-border)" }}
-                onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; e.currentTarget.style.borderColor = "#512BD4"; }}
+                onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; e.currentTarget.style.borderColor = "#0B79D0"; }}
                 onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-secondary)"; e.currentTarget.style.borderColor = "var(--bg-border)"; }}
               >
                 <BookOpen className="w-4 h-4" />
@@ -285,7 +285,7 @@ export default function Hero() {
             {/* Animated glow */}
             <motion.div
               className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full pointer-events-none"
-              style={{ width: "520px", height: "520px", background: "radial-gradient(circle, rgba(81,43,212,0.28) 0%, rgba(37,99,235,0.12) 40%, transparent 70%)", filter: "blur(70px)" }}
+              style={{ width: "520px", height: "520px", background: "radial-gradient(circle, rgba(11,121,208,0.28) 0%, rgba(37,99,235,0.12) 40%, transparent 70%)", filter: "blur(70px)" }}
               animate={{ scale: [1, 1.06, 1], opacity: [0.8, 1, 0.8] }}
               transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
             />

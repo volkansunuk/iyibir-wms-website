@@ -20,7 +20,7 @@ export default function FAQ() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
-            style={{ border: "1px solid rgba(81,43,212,0.25)", background: "rgba(81,43,212,0.07)" }}
+            style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.07)" }}
           >
             <HelpCircle className="w-3 h-3" />
             {t("badge")}
@@ -60,8 +60,8 @@ export default function FAQ() {
                 transition={{ delay: i * 0.06 }}
                 className="rounded-xl overflow-hidden"
                 style={{
-                  border: isOpen ? "1px solid rgba(81,43,212,0.4)" : "1px solid var(--bg-border)",
-                  background: isOpen ? "rgba(81,43,212,0.04)" : "var(--bg-card)",
+                  border: isOpen ? "1px solid rgba(11,121,208,0.4)" : "1px solid var(--bg-border)",
+                  background: isOpen ? "rgba(11,121,208,0.04)" : "var(--bg-card)",
                   transition: "border-color 0.2s, background 0.2s",
                 }}
               >
@@ -78,8 +78,8 @@ export default function FAQ() {
                   <div
                     className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
                     style={{
-                      background: isOpen ? "rgba(81,43,212,0.2)" : "var(--bg-base)",
-                      border: `1px solid ${isOpen ? "rgba(81,43,212,0.4)" : "var(--bg-border)"}`,
+                      background: isOpen ? "rgba(11,121,208,0.2)" : "var(--bg-base)",
+                      border: `1px solid ${isOpen ? "rgba(11,121,208,0.4)" : "var(--bg-border)"}`,
                       color: isOpen ? "#7B6CF0" : "var(--text-muted)",
                     }}
                   >
@@ -99,7 +99,7 @@ export default function FAQ() {
                       <div className="px-6 pb-5">
                         <div
                           className="h-px mb-4"
-                          style={{ background: "rgba(81,43,212,0.15)" }}
+                          style={{ background: "rgba(11,121,208,0.15)" }}
                         />
                         <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                           {item.a}

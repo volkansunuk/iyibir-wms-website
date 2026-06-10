@@ -23,7 +23,7 @@ export default function Features() {
       <div
         className="absolute inset-0 opacity-20 pointer-events-none"
         style={{
-          backgroundImage: "linear-gradient(rgba(81,43,212,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(81,43,212,0.04) 1px, transparent 1px)",
+          backgroundImage: "linear-gradient(rgba(11,121,208,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(11,121,208,0.04) 1px, transparent 1px)",
           backgroundSize: "60px 60px",
         }}
       />
@@ -35,7 +35,7 @@ export default function Features() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
-            style={{ border: "1px solid rgba(81,43,212,0.25)", background: "rgba(81,43,212,0.07)" }}
+            style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.07)" }}
           >
             {t("badge")}
           </motion.div>

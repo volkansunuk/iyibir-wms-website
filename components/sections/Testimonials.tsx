@@ -21,7 +21,7 @@ export default function Testimonials() {
     <section id="testimonials" className="py-24 relative overflow-hidden" style={{ background: "var(--bg-surface)" }}>
       <div
         className="absolute inset-0 pointer-events-none"
-        style={{ background: "radial-gradient(ellipse 60% 40% at 50% 50%, rgba(81,43,212,0.04) 0%, transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse 60% 40% at 50% 50%, rgba(11,121,208,0.04) 0%, transparent 70%)" }}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -31,7 +31,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
-            style={{ border: "1px solid rgba(81,43,212,0.25)", background: "rgba(81,43,212,0.07)" }}
+            style={{ border: "1px solid rgba(11,121,208,0.25)", background: "rgba(11,121,208,0.07)" }}
           >
             {t("badge")}
           </motion.div>
@@ -59,7 +59,7 @@ export default function Testimonials() {
 
         <div className="grid md:grid-cols-3 gap-6">
           {items.map((item, i) => {
-            const accentColor = SECTOR_COLORS[item.sector] ?? "#512BD4";
+            const accentColor = SECTOR_COLORS[item.sector] ?? "#0B79D0";
             return (
               <motion.div
                 key={i}

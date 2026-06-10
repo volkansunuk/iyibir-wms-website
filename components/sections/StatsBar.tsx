@@ -26,7 +26,7 @@ export default function StatsBar() {
   const t = useTranslations("stats");
 
   const stats = [
-    { value: 50, suffix: "+", label: t("customers"), color: "#512BD4" },
+    { value: 50, suffix: "+", label: t("customers"), color: "#0B79D0" },
     { value: 10000, suffix: "+", label: t("daily_ops"), color: "#2563EB" },
     { value: 18, suffix: "+", label: t("op_types"), color: "#16A34A" },
     { value: 7, suffix: "", label: t("ai_agents"), color: "#7C3AED" },
@@ -43,7 +43,7 @@ export default function StatsBar() {
         borderBottom: "1px solid var(--bg-border)",
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-[#512BD4]/5 via-transparent to-[#2563EB]/5 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0B79D0]/5 via-transparent to-[#2563EB]/5 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <motion.p

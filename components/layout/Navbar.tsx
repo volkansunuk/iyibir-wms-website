@@ -45,7 +45,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex items-center gap-2.5 group">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#512BD4] to-[#2563EB] flex items-center justify-center shadow-lg group-hover:shadow-purple-500/40 transition-shadow">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#0B79D0] to-[#2563EB] flex items-center justify-center shadow-lg group-hover:shadow-sky-500/40 transition-shadow">
             <Warehouse className="w-4 h-4 text-white" />
           </div>
           <span className="text-lg font-bold tracking-tight" style={{ fontFamily: "var(--font-poppins)" }}>
@@ -100,7 +100,7 @@ export default function Navbar() {
 
           <a
             href={`/${locale}/demo`}
-            className="px-4 py-1.5 text-sm font-semibold text-white bg-[#512BD4] hover:bg-[#6B46E0] rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-purple-500/30 active:scale-95"
+            className="px-4 py-1.5 text-sm font-semibold text-white bg-[#0B79D0] hover:bg-[#28A8F4] rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-sky-500/30 active:scale-95"
           >
             {t("demo")}
           </a>
@@ -163,7 +163,7 @@ export default function Navbar() {
             </Link>
             <a
               href={`/${locale}/demo`}
-              className="px-4 py-1.5 text-sm font-semibold text-white bg-[#512BD4] rounded-full"
+              className="px-4 py-1.5 text-sm font-semibold text-white bg-[#0B79D0] rounded-full"
             >
               {t("demo")}
             </a>

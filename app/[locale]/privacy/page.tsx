@@ -41,7 +41,7 @@ export default async function PrivacyPage({
                   <p className="mt-2">
                     <strong className="text-white">Adres:</strong> Ankara, Türkiye<br />
                     <strong className="text-white">E-posta:</strong>{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
+                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
                   </p>
@@ -162,7 +162,7 @@ export default async function PrivacyPage({
                   <h2 className="text-lg font-semibold text-white mb-3">9. Başvuru Yöntemi</h2>
                   <p>
                     Haklarınızı kullanmak için yazılı başvurunuzu{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
+                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>{" "}
                     adresine iletebilirsiniz. Başvurularınız en geç 30 (otuz) gün içinde sonuçlandırılır.
@@ -186,7 +186,7 @@ export default async function PrivacyPage({
                   <p className="mt-2">
                     <strong className="text-white">Address:</strong> Ankara, Turkey<br />
                     <strong className="text-white">Email:</strong>{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
+                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
                   </p>
@@ -302,7 +302,7 @@ export default async function PrivacyPage({
                   <h2 className="text-lg font-semibold text-white mb-3">9. How to Exercise Your Rights</h2>
                   <p>
                     To exercise your rights, please send your written request to{" "}
-                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#A78BFA] hover:underline">
+                    <a href="mailto:info@iyibiryazilim.com.tr" className="text-[#38BDF8] hover:underline">
                       info@iyibiryazilim.com.tr
                     </a>
                     . Requests will be concluded within 30 (thirty) days. Your application must include information

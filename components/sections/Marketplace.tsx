@@ -83,8 +83,8 @@ export default function Marketplace() {
                       className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg flex-shrink-0"
                       style={{ background: "rgba(37,99,235,0.1)", border: "1px solid rgba(37,99,235,0.25)" }}
                     >
-                      <Package className="w-3.5 h-3.5 text-[#60A5FA]" />
-                      <span className="text-xs text-[#60A5FA] font-medium" style={{ fontFamily: "var(--font-poppins)" }}>
+                      <Package className="w-3.5 h-3.5 text-[#28A8F4]" />
+                      <span className="text-xs text-[#28A8F4] font-medium" style={{ fontFamily: "var(--font-poppins)" }}>
                         WMS
                       </span>
                     </div>

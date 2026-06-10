@@ -25,12 +25,12 @@ export default function DemoCta() {
     <section id="demo" className="py-24 relative overflow-hidden" style={{ background: "var(--bg-surface)" }}>
       <div
         className="absolute inset-0 pointer-events-none"
-        style={{ background: "radial-gradient(ellipse 70% 60% at 50% 0%, rgba(81,43,212,0.08) 0%, transparent 60%)" }}
+        style={{ background: "radial-gradient(ellipse 70% 60% at 50% 0%, rgba(11,121,208,0.08) 0%, transparent 60%)" }}
       />
       <div
         className="absolute inset-0 opacity-10 pointer-events-none"
         style={{
-          backgroundImage: "linear-gradient(rgba(81,43,212,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(81,43,212,0.05) 1px, transparent 1px)",
+          backgroundImage: "linear-gradient(rgba(11,121,208,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(11,121,208,0.05) 1px, transparent 1px)",
           backgroundSize: "60px 60px",
         }}
       />
@@ -42,7 +42,7 @@ export default function DemoCta() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3 py-1.5 mb-4 rounded-full text-xs text-[#7B6CF0] uppercase tracking-wider"
-            style={{ border: "1px solid rgba(81,43,212,0.3)", background: "rgba(81,43,212,0.07)" }}
+            style={{ border: "1px solid rgba(11,121,208,0.3)", background: "rgba(11,121,208,0.07)" }}
           >
             {t("badge")}
           </motion.div>
@@ -116,7 +116,7 @@ export default function DemoCta() {
                       border: "1px solid var(--bg-border)",
                       color: "var(--text-primary)",
                     }}
-                    onFocus={(e) => (e.currentTarget.style.borderColor = "#512BD4")}
+                    onFocus={(e) => (e.currentTarget.style.borderColor = "#0B79D0")}
                     onBlur={(e) => (e.currentTarget.style.borderColor = "var(--bg-border)")}
                   />
                 </div>
@@ -138,7 +138,7 @@ export default function DemoCta() {
                     border: "1px solid var(--bg-border)",
                     color: "var(--text-primary)",
                   }}
-                  onFocus={(e) => (e.currentTarget.style.borderColor = "#512BD4")}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = "#0B79D0")}
                   onBlur={(e) => (e.currentTarget.style.borderColor = "var(--bg-border)")}
                 />
               </div>
@@ -147,7 +147,7 @@ export default function DemoCta() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="group flex items-center gap-2 px-8 py-3 text-base font-semibold text-white bg-[#512BD4] hover:bg-[#6B46E0] rounded-full transition-all duration-200 hover:shadow-xl hover:shadow-purple-500/30 disabled:opacity-70 active:scale-95"
+                  className="group flex items-center gap-2 px-8 py-3 text-base font-semibold text-white bg-[#0B79D0] hover:bg-[#28A8F4] rounded-full transition-all duration-200 hover:shadow-xl hover:shadow-sky-500/30 disabled:opacity-70 active:scale-95"
                 >
                   {loading ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
