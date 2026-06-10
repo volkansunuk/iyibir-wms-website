@@ -15,10 +15,13 @@ type Slide = {
   logoSrc?: string;
 };
 
+// Firmaların kendi logoları, indirilmeden Google favicon servisiyle URL üzerinden gösterilir.
+const favicon = (domain: string) => `https://www.google.com/s2/favicons?sz=128&domain=${domain}`;
+
 const SLIDES: Slide[] = [
-  { key: "logo",    short: "LT", name: "Logo Tiger", color: "#2563EB", accent: "#28A8F4", Icon: Zap, logoSrc: "/integrations/logo-tiger.png" },
-  { key: "geliver", short: "G",  name: "Geliver.io", color: "#0891B2", accent: "#38BDF8", Icon: Truck },
-  { key: "uetds",   short: "U",  name: "UETDS",      color: "#16A34A", accent: "#4ADE80", Icon: FileCheck },
+  { key: "logo",    short: "LT", name: "Logo Tiger", color: "#2563EB", accent: "#28A8F4", Icon: Zap,      logoSrc: favicon("logo.com.tr") },
+  { key: "geliver", short: "G",  name: "Geliver.io", color: "#0891B2", accent: "#38BDF8", Icon: Truck,    logoSrc: favicon("geliver.io") },
+  { key: "uetds",   short: "U",  name: "UETDS",      color: "#16A34A", accent: "#4ADE80", Icon: FileCheck, logoSrc: favicon("uab.gov.tr") },
 ];
 
 const ROTATE_MS = 6000;
@@ -27,6 +30,7 @@ export default function LogoIntegration() {
   const t = useTranslations();
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [failed, setFailed] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     if (paused) return;
@@ -60,8 +64,13 @@ export default function LogoIntegration() {
                   color: active ? s.accent : "var(--text-secondary)",
                 }}
               >
-                {s.logoSrc ? (
-                  <img src={s.logoSrc} alt={s.name} className="h-4 w-auto object-contain" />
+                {s.logoSrc && !failed[s.key] ? (
+                  <img
+                    src={s.logoSrc}
+                    alt={s.name}
+                    className="w-4 h-4 object-contain"
+                    onError={() => setFailed((f) => ({ ...f, [s.key]: true }))}
+                  />
                 ) : (
                   <s.Icon className="w-3.5 h-3.5" />
                 )}
@@ -98,10 +107,18 @@ export default function LogoIntegration() {
                   <div className="flex flex-col items-center gap-2">
                     <div
                       className="w-16 h-16 rounded-2xl flex items-center justify-center overflow-hidden"
-                      style={{ background: slide.logoSrc ? "#FFFFFF" : `${slide.color}1A`, border: `1px solid ${slide.color}40` }}
+                      style={{
+                        background: slide.logoSrc && !failed[slide.key] ? "#FFFFFF" : `${slide.color}1A`,
+                        border: `1px solid ${slide.color}40`,
+                      }}
                     >
-                      {slide.logoSrc ? (
-                        <img src={slide.logoSrc} alt={slide.name} className="w-10 h-10 object-contain" />
+                      {slide.logoSrc && !failed[slide.key] ? (
+                        <img
+                          src={slide.logoSrc}
+                          alt={slide.name}
+                          className="w-9 h-9 object-contain"
+                          onError={() => setFailed((f) => ({ ...f, [slide.key]: true }))}
+                        />
                       ) : (
                         <span className="text-lg font-black" style={{ fontFamily: "var(--font-poppins)", color: slide.accent }}>
                           {slide.short}
