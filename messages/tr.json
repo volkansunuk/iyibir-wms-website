@@ -252,26 +252,26 @@
   "pricing": {
     "badge": "Fiyatlandırma",
     "title": "İhtiyacınıza Uygun Plan",
-    "subtitle": "Her ölçekteki işletme için esnek fiyatlandırma. Demo ile kendi verilerinizle deneyin.",
+    "subtitle": "Her pakette tüm modüller, AI ve entegrasyonlar dahildir; paketler yalnızca terminal sayısı ve hizmet düzeyine göre değişir. Demo ile kendi verilerinizle deneyin.",
     "monthly": "/ ay",
     "custom": "Özel Fiyat",
     "contact_sales": "Satış Ekibiyle İletişim",
-    "per_user": "kullanıcıya kadar",
+    "per_user": "terminale kadar",
     "most_popular": "En Popüler",
     "note": "Tüm fiyatlara KDV dahil değildir. Yıllık ödeme seçeneğinde %20 indirim uygulanır.",
     "plans": [
       {
         "name": "Starter",
         "price": "4.900 ₺",
-        "desc": "Küçük depo operasyonları için temel WMS çözümü",
+        "desc": "Küçük ekipler ve tek depo için tam donanımlı başlangıç",
         "users": "5",
         "features": [
-          "5 kullanıcı lisansı",
-          "3 operasyon kategorisi (seçilecek)",
-          "Logo Tiger entegrasyonu",
-          "Blazor web uygulaması",
-          "Temel raporlama",
-          "Email destek"
+          "5 Terminal Lisansı",
+          "Tüm Operasyon Modülleri",
+          "AI Asistan",
+          "Kargo Entegrasyonu (Geliver)",
+          "UETDS Sefer Bildirimi",
+          "E-posta Destek"
         ],
         "cta": "Demo Talep Et",
         "highlighted": false
@@ -279,16 +279,14 @@
       {
         "name": "Professional",
         "price": "9.900 ₺",
-        "desc": "Büyüyen işletmeler için kapsamlı WMS + AI çözümü",
+        "desc": "Büyüyen işletmeler için daha fazla terminal ve öncelikli hizmet",
         "users": "20",
         "features": [
-          "20 kullanıcı lisansı",
-          "Tüm 7 operasyon kategorisi",
-          "AI asistan (tüm yetenekler) dahil",
-          "MAUI mobil uygulama",
-          "Logo Tiger entegrasyonu",
-          "Gelişmiş raporlama & analitik",
-          "Öncelikli destek"
+          "20 Terminal Lisansı",
+          "Starter'daki her şey dahil",
+          "Öncelikli Destek",
+          "Ekip Eğitimi",
+          "Veri Aktarım (Migrasyon) Desteği"
         ],
         "cta": "Demo Talep Et",
         "highlighted": true
@@ -296,16 +294,16 @@
       {
         "name": "Enterprise",
         "price": null,
-        "desc": "Büyük operasyonlar için sınırsız ve esnek çözüm",
+        "desc": "Büyük operasyonlar için sınırsız ölçek, özel çözüm ve danışmanlık",
         "users": "∞",
         "features": [
-          "Sınırsız kullanıcı",
-          "Tüm özellikler dahil",
-          "On-premise kurulum seçeneği",
-          "Özel ERP entegrasyonları",
-          "SLA garantisi",
-          "7/24 öncelikli destek",
-          "Dedicated hesap yöneticisi"
+          "Sınırsız Terminal",
+          "Professional'daki her şey dahil",
+          "Özel Geliştirme & Entegrasyon",
+          "Özel (Yerinde) Eğitim",
+          "SLA Garantisi",
+          "7/24 Destek + Hesap Yöneticisi",
+          "Depo Süreç Danışmanlığı"
         ],
         "cta": "İletişime Geçin",
         "highlighted": false

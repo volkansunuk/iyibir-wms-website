@@ -252,25 +252,25 @@
   "pricing": {
     "badge": "Pricing",
     "title": "The Right Plan for Your Needs",
-    "subtitle": "Flexible pricing for businesses of all sizes. Scale up or down as your needs change.",
+    "subtitle": "Every plan includes all modules, AI, and integrations — plans differ only by terminal count and service level.",
     "monthly": "/ mo",
     "custom": "Custom Price",
     "most_popular": "Most Popular",
-    "per_user": "per user",
+    "per_user": "terminals",
     "note": "All prices exclude VAT. Annual billing available with 15% discount. Prices are in Turkish Lira.",
     "plans": [
       {
         "name": "Starter",
         "price": "₺4,900",
-        "desc": "Ideal for small teams and single-warehouse operations.",
-        "users": "Up to 5 users",
+        "desc": "A fully-equipped start for small teams and single-warehouse operations",
+        "users": "5",
         "features": [
-          "All 7 operation categories",
-          "Logo Tiger integration",
-          "Mobile app (Android/iOS)",
-          "Barcode & QR scanning",
-          "Basic reporting",
-          "Email support"
+          "5 Terminal Licenses",
+          "All Operation Modules",
+          "AI Assistant",
+          "Cargo Integration (Geliver)",
+          "UETDS Trip Reporting",
+          "Email Support"
         ],
         "cta": "Request Demo",
         "highlighted": false
@@ -278,16 +278,14 @@
       {
         "name": "Professional",
         "price": "₺9,900",
-        "desc": "Comprehensive solution for growing businesses and multi-warehouse structures.",
-        "users": "Up to 20 users",
+        "desc": "More terminals and priority service for growing businesses",
+        "users": "20",
         "features": [
+          "20 Terminal Licenses",
           "Everything in Starter",
-          "Multi-warehouse management",
-          "AI assistant (all capabilities)",
-          "Advanced analytics & dashboards",
-          "Lot/serial number tracking",
-          "Priority support",
-          "Custom reports"
+          "Priority Support",
+          "Team Training",
+          "Data Migration Assistance"
         ],
         "cta": "Request Demo",
         "highlighted": true
@@ -295,16 +293,16 @@
       {
         "name": "Enterprise",
         "price": null,
-        "desc": "Custom solution for large enterprises with special needs.",
-        "users": "Unlimited users",
+        "desc": "Unlimited scale, custom solutions, and consulting for large operations",
+        "users": "∞",
         "features": [
+          "Unlimited Terminals",
           "Everything in Professional",
-          "Custom integrations",
-          "Dedicated account manager",
-          "On-premise deployment",
-          "SLA guarantee",
-          "Training & onboarding",
-          "Custom AI development"
+          "Custom Development & Integrations",
+          "On-site Custom Training",
+          "SLA Guarantee",
+          "24/7 Support + Account Manager",
+          "Warehouse Process Consulting"
         ],
         "cta": "Contact Us",
         "highlighted": false
